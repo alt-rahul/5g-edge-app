@@ -1,3 +1,8 @@
+'''
+This code connects to MongoDB cluster, fetches specific metrics from local Prometheus API 
+and sends them to the cluster. 
+'''
+
 import requests
 import time
 from dotenv import load_dotenv, find_dotenv
