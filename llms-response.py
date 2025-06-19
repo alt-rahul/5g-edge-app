@@ -1,5 +1,6 @@
 '''
-
+(Will probably move back to `script.py`) This makes sure we can easily attain performace
+metrics of the LLM that we'll use to consider in the benchmarks.
 '''
 
 from ollama import Client

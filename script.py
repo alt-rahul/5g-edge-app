@@ -63,7 +63,6 @@ def fetch_metrics():
     doc["time"] = time_string
     og_col.insert_one(doc)
     print("Finished Collecting One Collection")
-     
     
 
 while(True):
