@@ -4,7 +4,7 @@ curl -L https://github.com/prometheus/prometheus/releases/download/v3.4.1/promet
 
 tar xvfz prometheus-*.tar.gz
 
-cd prometheus-*
+# cd prometheus-*
 
 #downloading grafana
 
@@ -18,7 +18,11 @@ sudo dpkg -i grafana-enterprise_12.0.2_amd64.deb
 
 sudo dpkg -i nvidia-gpu-exporter_1.3.1_linux_amd64.deb
 
-#downloading 
+#downloading node exporter
+
+curl -L https://github.com/prometheus/node_exporter/releases/download/v1.9.1/node_exporter-1.9.1.linux-amd64.tar.gz > node_exporter-1.9.1.linux-amd64.tar.gz
+
+tar xvfz node_exporter-*.*-amd64.tar.gz
 
 
 # editing the prometehus config file
@@ -75,6 +79,12 @@ EOF
 #creating prometheus as a service
 
 cd ..
+
+
+SERVICE_NAME = "prometheus.service"
+SERVICE_PATH = "etc/systemd/system/$SERVICE_NAME"
+
+sudo tee "$SERVICE_PATH" > /dev/null <<EOF 
 
 
 
