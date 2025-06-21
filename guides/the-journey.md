@@ -29,4 +29,11 @@ This document will contain descriptive information about the progress made in th
   - [x] Explored olllama and tried running LLMs on nodes with GPUs (Tesla V100)
 - [x] Finish weekly presentation: [Week 3](../weekly_presentations/Week3.pptx)
 
+### Week 4
+- [x] Creating a pipeline
+  - [x] Finalized the script that allows to fetch live metrics Prometheus and store it as a doc in [MongoDB](https://www.mongodb.com/)
+  - [x] Found a way to collect LLM performce metric information from ollama locally 
+  - [x] Wrap up making a *standardized test* to test LLMs while being used on different nodes
+- [x] Finish weekly presention: [Week 4](../weekly_presentations/Week4.pptx)
+
 
