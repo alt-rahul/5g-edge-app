@@ -10,13 +10,23 @@ This document will contain descriptive information about the progress made in th
 - [x] Get started with Edge
   - [x] Understanding what is Edge, why is it usefull, and what is it primarily used for
   - [x] Look at existing research papers that explained Edge 
-  - [x] Finish weekly presentation:  
+- [x] Finish weekly presentation: [Week 1](../weekly_presentations/Week1.pptx)
 
 
 ### Week 2
 - [x] Make a future roadmap
   - [x] What exactly are we trying to acheive? - creating Edge benchmarks that'll help the scheduler
   - [x] What are important steps? - look at existing benchmarks, collect data (when running AI applications), integrate our bechmarks with exisiting ones and potentially develop an ML model. 
-  - [x] Finish weekly presentation: [Week 2](../weekly_presentations/Week2.pptx)
+- [x] Using orbit
+  - [x] Learning how to `ssh` into nodes, loading images, and etc.
+- [x] Finish weekly presentation: [Week 2](../weekly_presentations/Week2.pptx)
+
+
+### Week 3
+- [x] Setting up services
+  - [x] Had to set up [Prometehus](https://prometheus.io/), [Grafana](https://grafana.com/), [Nvidia Exporter](https://github.com/utkuozdemir/nvidia_gpu_exporter)
+  - [x] Creating an image (`rahulisbetter.ndz`) to load dev enviornment on to any node easier
+  - [x] Explored olllama and tried running LLMs on nodes with GPUs (Tesla V100)
+- [x] Finish weekly presentation: [Week 3](../weekly_presentations/Week3.pptx)
 
 
