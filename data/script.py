@@ -35,22 +35,26 @@ QUERY = 'nvidia_smi_utilization_gpu_ratio'
 
 #these are all the metrics we'll be collecting from prometheus
 metrics = {
-    "GPU Utilization": 'nvidia_smi_utilization_gpu_ratio',
-    "Power Draw": 'nvidia_smi_power_draw_watts',
-    'Power Limit': 'nvidia_smi_power_default_limit_watts',
-    "GPU Temp":'nvidia_smi_temperature_gpu',
-    "GPU Current Clock":'nvidia_smi_clocks_current_graphics_clock_hz',
-    "GPU Clock Limit":'nvidia_smi_clocks_max_graphics_clock_hz',
-    "Memory Current Clock":'nvidia_smi_clocks_current_memory_clock_hz',
-    "Memory Clock Limit":'nvidia_smi_clocks_max_memory_clock_hz',
-    'Memory Allocation Used':"nvidia_smi_memory_used_bytes",
-    'Memory Allocation Total':"nvidia_smi_memory_total_bytes",
+    "GPU Utilization (%)": 'nvidia_smi_utilization_gpu_ratio',
+    "Power Draw (Watts)": 'nvidia_smi_power_draw_watts',
+    'Power Limit (Watts)': 'nvidia_smi_power_default_limit_watts',
+    "GPU Temp (°C)":'nvidia_smi_temperature_gpu',
+    "GPU Current Clock (MHz)":'nvidia_smi_clocks_current_graphics_clock_hz',
+    "GPU Clock Limit (MHz)":'nvidia_smi_clocks_max_graphics_clock_hz',
+    "Memory Current Clock (MHz)":'nvidia_smi_clocks_current_memory_clock_hz',
+    "Memory Clock Limit (MHz)":'nvidia_smi_clocks_max_memory_clock_hz',
+    'Memory Allocation Used (Bytes)':"nvidia_smi_memory_used_bytes",
+    'Memory Allocation Total (Bytes)':"nvidia_smi_memory_total_bytes",
     'Memory Utilization (VRAM)':"nvidia_smi_utilization_memory_ratio",
 }
 
 
 #function for fetching all the metrics (request each one by one) and then structing the metrics into a dictionary
 #that we insert into as a single observation or data point into MongoDB
+
+stages = ['idle', 'background', 'interaction']
+curr_stage = stages[0]
+
 def fetch_metrics():
     doc = { }
     for metric_name, metric_query in metrics.items():
@@ -61,6 +65,7 @@ def fetch_metrics():
     now = datetime.now()
     time_string = now.strftime("%H:%M:%S")
     doc["time"] = time_string
+    doc["current_stage"] = curr_stage
     og_col.insert_one(doc)
     print("Finished Collecting One Collection")
     
