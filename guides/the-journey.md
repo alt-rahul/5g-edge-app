@@ -7,7 +7,14 @@ This document will contain descriptive information about the progress made in th
 
 ### Week 1
 
-- [ ] Get started with Edge
-  - [ ] Understanding what is Edge, why is it usefull, and what is it primarily used for
-  - [ ] Look at existing research papers that explained Edge 
-  - [ ] Finish weekly presentation:  
+- [x] Get started with Edge
+  - [x] Understanding what is Edge, why is it usefull, and what is it primarily used for
+  - [x] Look at existing research papers that explained Edge 
+  - [x] Finish weekly presentation:  
+
+
+### Week 2
+- [x] Make a future roadmap
+  - [x] What exactly are we trying to acheive? - creating Edge benchmarks that'll help the scheduler
+  - [x] What are important steps? - look at existing benchmarks, collect data (when running AI applications), integrate our bechmarks with exisiting ones and potentially develop an ML model. 
+  - [x] Finish weekly presentation: [Week 2]("\weekly_presentations\Week2")
