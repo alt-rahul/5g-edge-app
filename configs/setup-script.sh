@@ -1,6 +1,6 @@
 #downloading prometheus
 
-curl -L https://github.com/prometheus/prometheus/releases/download/v3.4.1/prometheus-3.4.1.darwin-amd64.tar.gz -a
+curl -L https://github.com/prometheus/prometheus/releases/download/v3.4.1/prometheus-3.4.1.linux-amd64.tar.gz > prometheus-3.4.1.linux-amd64.tar.gz
 
 tar xvfz prometheus-*.tar.gz
 
@@ -16,7 +16,11 @@ sudo dpkg -i grafana-enterprise_12.0.2_amd64.deb
 
 #downloading nvidia_gpu_exporter
 
-sudo dpkg -i nvidia-gpu-exporter_1.3.1_linux_amd64.deb
+VERSION=1.3.1
+wget https://github.com/utkuozdemir/nvidia_gpu_exporter/releases/download/v${VERSION}/nvidia_gpu_exporter_${VERSION}_linux_x86_64.tar.gz
+tar -xvzf nvidia_gpu_exporter_${VERSION}_linux_x86_64.tar.gz
+mv nvidia_gpu_exporter /usr/bin
+sudo useradd --system --no-create-home --shell /usr/sbin/nologin nvidia_gpu_exporter
 
 #downloading node exporter
 
@@ -85,6 +89,19 @@ SERVICE_NAME = "prometheus.service"
 SERVICE_PATH = "etc/systemd/system/$SERVICE_NAME"
 
 sudo tee "$SERVICE_PATH" > /dev/null <<EOF 
+[Unit]
+Description=ROT13 demo service
+After=network.target
+StartLimitIntervalSec=0
 
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=centos
+ExecStart=/root/prometheus
+
+[Install]
+WantedBy=multi-user.target
 
 
