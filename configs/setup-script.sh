@@ -16,11 +16,23 @@ sudo dpkg -i grafana-enterprise_12.0.2_amd64.deb
 
 #downloading nvidia_gpu_exporter
 
-VERSION=1.3.1
-wget https://github.com/utkuozdemir/nvidia_gpu_exporter/releases/download/v${VERSION}/nvidia_gpu_exporter_${VERSION}_linux_x86_64.tar.gz
-tar -xvzf nvidia_gpu_exporter_${VERSION}_linux_x86_64.tar.gz
-mv nvidia_gpu_exporter /usr/bin
+
+curl -L https://github.com/utkuozdemir/nvidia_gpu_exporter/releases/download/v1.3.2/nvidia-gpu-exporter_1.3.2_linux_amd64.deb > nvidia-gpu-exporter_1.3.2_linux_amd64.deb
+
+sudo dpkg -i nvidia-gpu-exporter_1.3.2_linux_amd64.deb
+
 sudo useradd --system --no-create-home --shell /usr/sbin/nologin nvidia_gpu_exporter
+
+cd /usr/bin
+
+cp nvidia_gpu_exporter /etc/systemd/system
+
+cd 
+
+sudo systemctl daemon-reload
+
+sudo systemctl enable --now nvidia_gpu_exporter
+
 
 #downloading node exporter
 
