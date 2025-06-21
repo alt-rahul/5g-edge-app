@@ -10,8 +10,6 @@ alerting:
     - static_configs:
         - targets:
           # - alertmanager:9093
-
-# Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
 rule_files:
   # - "first_rules.yml"
   # - "second_rules.yml"
@@ -21,20 +19,25 @@ rule_files:
 scrape_configs:
   
   # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+
+  # run prometheus
   - job_name: "prometheus"
 
-    # metrics_path defaults to '/metrics'
-    # scheme defaults to 'http'.
-
+    # prometheus port
     static_configs:
       - targets: ["0.0.0.0:9090"]
-       # The label name is added as a label `label_name=<label_value>` to any timeseries scraped from>        labels:
           app: "prometheus"
   
+  # node exporter
   - job_name: node
+
+    # node exporter port
     static_configs:
       - targets: ['localhost:9100']
 
+  # running nvidia-gpu-exporter 
   - job_name: 'nvidia_gpu'
+    
+    # gpu exporter port
     static_configs:
       - targets: ['localhost:9835']
