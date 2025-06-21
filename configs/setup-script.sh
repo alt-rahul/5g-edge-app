@@ -9,6 +9,10 @@ rm prometheus-*.tar.gz
 sudo apt-get install -y adduser libfontconfig1 musl
 wget https://dl.grafana.com/enterprise/release/grafana-enterprise_12.0.2_amd64.deb
 sudo dpkg -i grafana-enterprise_12.0.2_amd64.deb
+    # when grafana isn't downloading go into nano /etc/apt/sources.list
+    # and then comment out the last line of code and save
+    # run apt update -y && apt install xdg-utils -y and following instructions and rerun the code above
+
 
 #downloading nvidia_gpu_exporter
 
