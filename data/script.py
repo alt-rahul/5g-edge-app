@@ -45,7 +45,7 @@ metrics = {
     "Memory Clock Limit (MHz)":'nvidia_smi_clocks_max_memory_clock_hz',
     'Memory Allocation Used (MB)':"nvidia_smi_memory_used_bytes",
     'Memory Allocation Total (MB)':"nvidia_smi_memory_total_bytes",
-    'Memory Utilization (VRAM)':"nvidia_smi_utilization_memory_ratio",
+    'Memory Utilization (%)':"nvidia_smi_utilization_memory_ratio",
 }
 
 
@@ -56,6 +56,7 @@ stages = ['idle', 'background', 'interaction']
 curr_stage = stages[0]
 
 initial = datetime.now()
+time_string = initial.strftime("%H:%M:%S")
 
 count = 0
 
@@ -69,12 +70,14 @@ def fetch_metrics():
     response = requests.get(PROMETHEUS_URL, params={"query":QUERY})
     response = response.json()
     doc['GPU Info'] = response['data']['result'][0]['metric']['name']
+    doc["Start Time"] = time_string
     now = datetime.now()
-    time_string = now.strftime("%H:%M:%S")
-    doc["time"] = time_string
-    doc["current_stage"] = curr_stage
+    timedelta = now - initial
+    doc['Time Delta'] = timedelta.seconds
+    doc ['Current Time']  = now.strftime("%H:%M:%S")
+    doc["Test Stage"] = curr_stage
     og_col.insert_one(doc)
-    print(f"Finished Collecting Collection {count}")
+    print(f"Finished Collecting Collection #{count}")
     
 
 
