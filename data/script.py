@@ -18,11 +18,11 @@ my_password = os.environ.get("RAHUL_PASS")
 # actually connecting our MongoDB database 
 connection_string = f"mongodb+srv://rr1437:{my_password}@prometrics.h105zsq.mongodb.net/?retryWrites=true&w=majority&appName=ProMetrics"
 client = MongoClient(connection_string)
-print(client.list_database_names())
+# print(client.list_database_names())
 
 #filtering client into our specific database and collection
 og_db = client['main']
-og_col = og_db['gpu_metrics']
+og_col = og_db['test_gpu_metrics']
 
 
 #because we're using prometheus locally (set up local ports using orobit) we're 
@@ -31,7 +31,7 @@ PROMETHEUS_URL = "http://localhost:9090/api/v1/query"
 
 
 #this was our sample query - (like bro this is like not even that much work fr fr)
-QUERY = 'nvidia_smi_utilization_gpu_ratio'
+QUERY = 'nvidia_smi_gpu_info'
 
 #these are all the metrics we'll be collecting from prometheus
 metrics = {
@@ -43,8 +43,8 @@ metrics = {
     "GPU Clock Limit (MHz)":'nvidia_smi_clocks_max_graphics_clock_hz',
     "Memory Current Clock (MHz)":'nvidia_smi_clocks_current_memory_clock_hz',
     "Memory Clock Limit (MHz)":'nvidia_smi_clocks_max_memory_clock_hz',
-    'Memory Allocation Used (Bytes)':"nvidia_smi_memory_used_bytes",
-    'Memory Allocation Total (Bytes)':"nvidia_smi_memory_total_bytes",
+    'Memory Allocation Used (MB)':"nvidia_smi_memory_used_bytes",
+    'Memory Allocation Total (MB)':"nvidia_smi_memory_total_bytes",
     'Memory Utilization (VRAM)':"nvidia_smi_utilization_memory_ratio",
 }
 
@@ -55,24 +55,33 @@ metrics = {
 stages = ['idle', 'background', 'interaction']
 curr_stage = stages[0]
 
+initial = datetime.now()
+
+count = 0
+
 def fetch_metrics():
     doc = { }
     for metric_name, metric_query in metrics.items():
         response = requests.get(PROMETHEUS_URL, params={'query':metric_query})
         results = response.json()
         result = results['data']['result'][0]['value'][1]        
-        doc[metric_name] = result
+        doc[metric_name] = float(result)
+    response = requests.get(PROMETHEUS_URL, params={"query":QUERY})
+    response = response.json()
+    doc['GPU Info'] = response['data']['result'][0]['metric']['name']
     now = datetime.now()
     time_string = now.strftime("%H:%M:%S")
     doc["time"] = time_string
     doc["current_stage"] = curr_stage
     og_col.insert_one(doc)
-    print("Finished Collecting One Collection")
+    print(f"Finished Collecting Collection {count}")
     
 
-while(True):
+
+while(True and count <10):
     fetch_metrics()
     time.sleep(10)
+    count+=1
 
 
 
