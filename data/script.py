@@ -67,23 +67,26 @@ def fetch_metrics():
         results = response.json()
         result = results['data']['result'][0]['value'][1]        
         doc[metric_name] = float(result)
+    
     response = requests.get(PROMETHEUS_URL, params={"query":QUERY})
     response = response.json()
     doc['GPU Info'] = response['data']['result'][0]['metric']['name']
+    
     doc["Start Time"] = time_string
     now = datetime.now()
     timedelta = now - initial
-    doc['Time Delta'] = timedelta.seconds
     doc ['Current Time']  = now.strftime("%H:%M:%S")
-    doc["Test Stage"] = curr_stage
-    og_col.insert_one(doc)
-    print(f"Finished Collecting Collection #{count}")
+    doc['Time Delta'] = timedelta.seconds
     
-
+    doc["Test Stage"] = curr_stage
+    
+    og_col.insert_one(doc)
+    print(f"Finished Collecting Collection #{count + 1}")
+    
 
 while(True and count <10):
     fetch_metrics()
-    time.sleep(10)
+    time.sleep(5)
     count+=1
 
 
