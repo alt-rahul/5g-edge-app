@@ -52,8 +52,8 @@ metrics = {
 #function for fetching all the metrics (request each one by one) and then structing the metrics into a dictionary
 #that we insert into as a single observation or data point into MongoDB
 
-stages = ['idle', 'background', 'interaction']
-curr_stage = stages[0]
+stages = ['idle', 'background', 'download', 'interaction']
+curr_stage = stages[3]
 
 initial = datetime.now()
 time_string = initial.strftime("%H:%M:%S")
@@ -84,9 +84,9 @@ def fetch_metrics():
     print(f"Finished Collecting Collection #{count + 1}")
     
 
-while(True and count <10):
+while(True):
     fetch_metrics()
-    time.sleep(5)
+    time.sleep(1)
     count+=1
 
 
