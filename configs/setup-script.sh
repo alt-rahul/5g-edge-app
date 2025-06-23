@@ -23,7 +23,6 @@ cd /usr/bin
 cp nvidia_gpu_exporter /etc/systemd/system
 cd 
 sudo systemctl daemon-reload
-sudo systemctl enable --now nvidia_gpu_exporter
 
 
 #downloading node exporter

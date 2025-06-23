@@ -99,3 +99,14 @@ Now go into your browser, and in one tab, go to the following link: [localhost:3
 
 
 Made by: [Rahul Rajkumar](https://rajhulrajkumar.vercel.app)
+
+
+
+Checking which services are running:
+
+```bash
+
+lsof -i -P -n | grep LISTEN
+
+```
+
