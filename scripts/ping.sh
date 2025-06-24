@@ -1,6 +1,3 @@
 nvidia > result.txt
 
-for i $(seq 1 10);
-do 
-    nvidia-smi >> result.txt sleep 1s;
-done
+for ((i = 0 ; i < 10 ; i++ )); do nvidia-smi >> result.txt; sleep 1s; done
