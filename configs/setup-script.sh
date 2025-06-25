@@ -36,3 +36,8 @@ curl -fsSL https://ollama.com/install.sh | sh
 OLLAMA_HOST=0.0.0.0 ollama serve
 
 
+#to update apt files
+
+apt update
+nano /etc/apt/sources.list #comment out last line
+apt update -y 
