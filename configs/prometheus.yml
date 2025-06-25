@@ -34,11 +34,11 @@ scrape_configs:
 
     # node exporter port
     static_configs:
-      - targets: ['localhost:9100']
+      - targets: ['<ip_address_of_node>:9100']
 
   # running nvidia-gpu-exporter 
   - job_name: 'nvidia_gpu'
     
     # gpu exporter port
     static_configs:
-      - targets: ['localhost:9835']
+      - targets: ['<ip_address_of_node>:9835']
