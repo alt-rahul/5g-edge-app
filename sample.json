@@ -12,13 +12,27 @@
     },
     
     "Live":{
-        "GPU Utilization (%)":0,
-        "Power Draw (Watts)": 23.64, 
-        "GPU Temp (°C)":21,
-        "GPU Current Clock (MHz)":135000,
-        "Memory Current Clock (MHz)":877000,
-        "Memory Allocation Used (MB)":5242880,
-        "Time Delta": 10,
-        "Current Time":"11:32:16"
+        "1": {
+            "GPU Utilization (%)":0,
+            "Power Draw (Watts)": 23.64, 
+            "GPU Temp (°C)":21,
+            "GPU Current Clock (MHz)":135000,
+            "Memory Current Clock (MHz)":877000,
+            "Memory Allocation Used (MB)":5242880,
+            "Time Delta": 10,
+            "Current Time":"11:32:16"
+            
+        },
+        "2": {
+            "GPU Utilization (%)":0,
+            "Power Draw (Watts)": 23.64, 
+            "GPU Temp (°C)":21,
+            "GPU Current Clock (MHz)":135000,
+            "Memory Current Clock (MHz)":877000,
+            "Memory Allocation Used (MB)":5242880,
+            "Time Delta": 10,
+            "Current Time":"11:32:16"
+        }
     }
 }
+
