@@ -33,18 +33,22 @@ PROMETHEUS_URL = "http://localhost:9090/api/v1/query"
 #this was our sample query - (like bro this is like not even that much work fr fr)
 QUERY = 'nvidia_smi_gpu_info'
 
+#metrics we only would need to collect once 
+INITIAL_METRICS = {
+    'Power Limit (Watts)': 'nvidia_smi_power_default_limit_watts', # initial -- collect once
+    "Memory Clock Limit (MHz)":'nvidia_smi_clocks_max_memory_clock_hz', # initial -- collect once
+    'Total Memory Allocation (MB)':"nvidia_smi_memory_total_bytes", # initial -- collect once
+    "GPU Clock Limit (MHz)":'nvidia_smi_clocks_max_graphics_clock_hz',
+}
+
 #these are all the metrics we'll be collecting from prometheus
-metrics = {
+LIVE_METRICS = {
     "GPU Utilization (%)": 'nvidia_smi_utilization_gpu_ratio',
     "Power Draw (Watts)": 'nvidia_smi_power_draw_watts',    
-    'Power Limit (Watts)': 'nvidia_smi_power_default_limit_watts', # initial -- collect once
     "GPU Temp (°C)":'nvidia_smi_temperature_gpu',
     "GPU Current Clock (MHz)":'nvidia_smi_clocks_current_graphics_clock_hz',
-    "GPU Clock Limit (MHz)":'nvidia_smi_clocks_max_graphics_clock_hz',
     "Memory Current Clock (MHz)":'nvidia_smi_clocks_current_memory_clock_hz',
-    "Memory Clock Limit (MHz)":'nvidia_smi_clocks_max_memory_clock_hz', # initial -- collect once
     'Memory Allocation Used (MB)':"nvidia_smi_memory_used_bytes",
-    'Memory Allocation Total (MB)':"nvidia_smi_memory_total_bytes", # initial -- collect once
     'Memory Utilization (%)':"nvidia_smi_utilization_memory_ratio",
 }
 

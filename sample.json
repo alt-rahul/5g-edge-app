@@ -3,10 +3,9 @@
     "Inital":{
       "Power Limit (Watts)": 250,
       "Memory Clock Limit (MHz)": 877000,
-      "Total Memory Allocation (MB)": 0,
+      "Total Memory Allocation (MB)": 17179869184,
       "Start Time": "11:32:06",
       "GPU Clock Limit (MHz)":1380000,
-      "Memory Allocation Total (MB)":17179869184,
       "GPU Info":"Tesla V100-PCIE-16GB"
 
     },
