@@ -36,4 +36,11 @@ This document will contain descriptive information about the progress made in th
   - [x] Wrap up making a *standardized test* to test LLMs while being used on different nodes
 - [x] Finish weekly presention: [Week 4](../presentations/Week4.pptx)
 
-
+### Week 5
+- [X] Fine grain our roadmap
+  - [x] After my advisor had redefined our goal, I was able to break down what I had to do each week
+  - [x] Set up a two nodes, one with prometheus and another with `nvidia_gpu_exporter` and `node_exporter`
+  - [x] Find the system utilization of both those exporters by pinging `nvidia-smi` and `top` every second for 5 mins with and without them running in the background.
+  - [ ] Artifically load the GPU and CPU using *nvbench* and *stress-ng* (respectively) on differnt load percentages 
+  - [x] Conduct a initial benchmark using Phoronix Test Suite on `sb2` node on cosmos
+- [X] Finish weekly presentation: [Week 5](../presentations/Week5.pptx)
