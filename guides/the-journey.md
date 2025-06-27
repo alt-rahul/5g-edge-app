@@ -34,7 +34,7 @@ This document will contain descriptive information about the progress made in th
   - [x] Finalized the script that allows to fetch live metrics Prometheus and store it as a doc in [MongoDB](https://www.mongodb.com/)
   - [x] Found a way to collect LLM performce metric information from ollama locally 
   - [x] Wrap up making a *standardized test* to test LLMs while being used on different nodes
-- [X] Create a website, go check it out [here](https:5g-edge-apps.vercel.app){target="_blank"}
+- [X] Create a website, go check it out [here](https://5g-edge-apps.vercel.app/){target="_blank"}
 - [x] Finish weekly presention: [Week 4](../presentations/Week4.pptx)
 
 ### Week 5
