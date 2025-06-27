@@ -2,7 +2,7 @@
 
 > “It's not the destination, it's the journey” - Ralph Waldo Emerson
 
-This document will contain descriptive information about the progress made in the past few weeks.  
+This document will contain descriptive information about the progress made in the past few weeks. *Warning: Because I'm working on a difficult project,  as a form of entertainment, I made the weekly presenations a completle joke but presented them with all seriousness and with real progress updates. 
 
 
 ### Week 1
