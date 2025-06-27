@@ -2,13 +2,13 @@
 
 > “It's not the destination, it's the journey” - Ralph Waldo Emerson
 
-This document will contain descriptive information about the progress made in the past few weeks. *Warning: Because I'm working on a difficult project,  as a form of entertainment, I made the weekly presenations a completle joke but presented them with all seriousness and with real progress updates. 
+This document will contain descriptive information about the progress made in the past few weeks. *Warning: Because I'm working on a difficult project,  as a form of entertainment, I made the weekly presenations a complete joke but presented them with all seriousness and with real progress updates. 
 
 
 ### Week 1
 
 - [x] Get started with Edge
-  - [x] Understanding what is Edge, why is it usefull, and what is it primarily used for
+  - [x] Understanding what is Edge, why is it useful, and what is it primarily used for
   - [x] Look at existing research papers that explained Edge 
 - [x] Finish weekly presentation: [Week 1](../presentations/Week1.pptx)
 
@@ -34,6 +34,7 @@ This document will contain descriptive information about the progress made in th
   - [x] Finalized the script that allows to fetch live metrics Prometheus and store it as a doc in [MongoDB](https://www.mongodb.com/)
   - [x] Found a way to collect LLM performce metric information from ollama locally 
   - [x] Wrap up making a *standardized test* to test LLMs while being used on different nodes
+- [X] Create a website, go check it out [here](https:/5g-edge-apps.vercel.app)
 - [x] Finish weekly presention: [Week 4](../presentations/Week4.pptx)
 
 ### Week 5
