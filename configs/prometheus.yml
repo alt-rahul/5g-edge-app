@@ -1,3 +1,6 @@
+# make sure to get rid of any tabs in when using the acutal yml file. This is the config file for prometheus when tryign to collect data
+# while node exporter is exporting information in another node, hence you would have to plug in the right IP address of that node for it work
+
 # my global config
 global:
     scrape_interval: 15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.

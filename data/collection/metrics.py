@@ -24,8 +24,7 @@ client = MongoClient(connection_string)
 og_db = client["main"]
 og_col = og_db["init_stage"]
 
-
-#because we"re using prometheus locally (set up local ports using orobit) we"re 
+#because we're using prometheus locally (set up local ports using orobit) we're 
 #fetching metric info from the following api
 PROMETHEUS_URL = "http://localhost:9090/api/v1/query"
 
