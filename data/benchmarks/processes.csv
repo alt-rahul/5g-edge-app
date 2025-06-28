@@ -703,8 +703,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 0,31970,2,[kworker/9:0],0.0,0.0
 0,31971,1359,sshd:,root@pts/0,0.0
 0,32002,2,[kworker/17:2],0.0,0.0
-0,32005,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-0,32006,31974,awk,-v,iter=0
 1,685,2,[nv_queue],0.0,1.8
 1,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.7
 1,31808,2,[kworker/u96:1-mlx5_cmd_000,0.0,0.5
@@ -1409,8 +1407,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 1,31970,2,[kworker/9:0],0.0,0.0
 1,31971,1359,sshd:,root@pts/0,0.0
 1,32002,2,[kworker/17:2],0.0,0.0
-1,32008,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-1,32009,31974,awk,-v,iter=1
 2,685,2,[nv_queue],0.0,1.8
 2,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.7
 2,31808,2,[kworker/u96:1-mlx5_cmd_000,0.0,0.5
@@ -2115,8 +2111,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 2,31970,2,[kworker/9:0],0.0,0.0
 2,31971,1359,sshd:,root@pts/0,0.0
 2,32002,2,[kworker/17:2],0.0,0.0
-2,32011,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-2,32012,31974,awk,-v,iter=2
 3,685,2,[nv_queue],0.0,1.8
 3,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.7
 3,31808,2,[kworker/u96:1-mlx5_cmd_000,0.0,0.5
@@ -2821,8 +2815,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 3,31970,2,[kworker/9:0],0.0,0.0
 3,31971,1359,sshd:,root@pts/0,0.0
 3,32002,2,[kworker/17:2],0.0,0.0
-3,32014,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-3,32015,31974,awk,-v,iter=3
 4,685,2,[nv_queue],0.0,1.8
 4,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.7
 4,31808,2,[kworker/u96:1-mlx5_cmd_000,0.0,0.5
@@ -3527,8 +3519,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 4,31970,2,[kworker/9:0],0.0,0.0
 4,31971,1359,sshd:,root@pts/0,0.0
 4,32002,2,[kworker/17:2],0.0,0.0
-4,32017,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-4,32018,31974,awk,-v,iter=4
 5,685,2,[nv_queue],0.0,1.8
 5,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.7
 5,31808,2,[kworker/u96:1-mlx5_cmd_000,0.0,0.5
@@ -4233,8 +4223,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 5,31970,2,[kworker/9:0],0.0,0.0
 5,31971,1359,sshd:,root@pts/0,0.0
 5,32002,2,[kworker/17:2],0.0,0.0
-5,32020,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-5,32021,31974,awk,-v,iter=5
 6,685,2,[nv_queue],0.0,1.8
 6,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.7
 6,31808,2,[kworker/u96:1-mlx5_cmd_000,0.0,0.5
@@ -4939,8 +4927,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 6,31970,2,[kworker/9:0],0.0,0.0
 6,31971,1359,sshd:,root@pts/0,0.0
 6,32002,2,[kworker/17:2],0.0,0.0
-6,32023,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-6,32024,31974,awk,-v,iter=6
 7,685,2,[nv_queue],0.0,1.8
 7,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.7
 7,31808,2,[kworker/u96:1-mlx5_cmd_000,0.0,0.5
@@ -5645,8 +5631,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 7,31970,2,[kworker/9:0],0.0,0.0
 7,31971,1359,sshd:,root@pts/0,0.0
 7,32002,2,[kworker/17:2],0.0,0.0
-7,32026,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-7,32027,31974,awk,-v,iter=7
 8,685,2,[nv_queue],0.0,1.8
 8,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.7
 8,31808,2,[kworker/u96:1-mlx5_cmd_000,0.0,0.5
@@ -6351,8 +6335,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 8,31970,2,[kworker/9:0],0.0,0.0
 8,31971,1359,sshd:,root@pts/0,0.0
 8,32002,2,[kworker/17:2],0.0,0.0
-8,32029,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-8,32030,31974,awk,-v,iter=8
 9,685,2,[nv_queue],0.0,1.8
 9,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.7
 9,31808,2,[kworker/u96:1-mlx5_cmd_000,0.0,0.5
@@ -7057,8 +7039,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 9,31970,2,[kworker/9:0],0.0,0.0
 9,31971,1359,sshd:,root@pts/0,0.0
 9,32002,2,[kworker/17:2],0.0,0.0
-9,32032,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-9,32033,31974,awk,-v,iter=9
 10,685,2,[nv_queue],0.0,1.8
 10,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.7
 10,31808,2,[kworker/u96:1-mlx5_cmd_000,0.0,0.5
@@ -7763,8 +7743,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 10,31970,2,[kworker/9:0],0.0,0.0
 10,31971,1359,sshd:,root@pts/0,0.0
 10,32002,2,[kworker/17:2],0.0,0.0
-10,32035,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-10,32036,31974,awk,-v,iter=10
 11,685,2,[nv_queue],0.0,1.8
 11,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.7
 11,31808,2,[kworker/u96:1-mlx5_cmd_000,0.0,0.5
@@ -8469,8 +8447,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 11,31970,2,[kworker/9:0],0.0,0.0
 11,31971,1359,sshd:,root@pts/0,0.0
 11,32002,2,[kworker/17:2],0.0,0.0
-11,32038,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-11,32039,31974,awk,-v,iter=11
 12,685,2,[nv_queue],0.0,1.8
 12,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 12,31808,2,[kworker/u96:1-mlx5_cmd_000,0.0,0.5
@@ -9175,8 +9151,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 12,31970,2,[kworker/9:0],0.0,0.0
 12,31971,1359,sshd:,root@pts/0,0.0
 12,32002,2,[kworker/17:2],0.0,0.0
-12,32041,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-12,32042,31974,awk,-v,iter=12
 13,685,2,[nv_queue],0.0,1.8
 13,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 13,31808,2,[kworker/u96:1-mlx5_cmd_000,0.0,0.5
@@ -9881,8 +9855,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 13,31970,2,[kworker/9:0],0.0,0.0
 13,31971,1359,sshd:,root@pts/0,0.0
 13,32002,2,[kworker/17:2],0.0,0.0
-13,32044,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-13,32045,31974,awk,-v,iter=13
 14,685,2,[nv_queue],0.0,1.8
 14,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 14,31808,2,[kworker/u96:1-mlx5_cmd_000,0.0,0.5
@@ -10587,8 +10559,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 14,31970,2,[kworker/9:0],0.0,0.0
 14,31971,1359,sshd:,root@pts/0,0.0
 14,32002,2,[kworker/17:2],0.0,0.0
-14,32047,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-14,32048,31974,awk,-v,iter=14
 15,685,2,[nv_queue],0.0,1.8
 15,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 15,31808,2,[kworker/u96:1-mlx5_cmd_000,0.0,0.5
@@ -11293,8 +11263,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 15,31970,2,[kworker/9:0],0.0,0.0
 15,31971,1359,sshd:,root@pts/0,0.0
 15,32002,2,[kworker/17:2],0.0,0.0
-15,32050,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-15,32051,31974,awk,-v,iter=15
 16,685,2,[nv_queue],0.0,1.8
 16,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 16,31808,2,[kworker/u96:1-mlx5_cmd_000,0.0,0.5
@@ -11999,8 +11967,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 16,31970,2,[kworker/9:0],0.0,0.0
 16,31971,1359,sshd:,root@pts/0,0.0
 16,32002,2,[kworker/17:2],0.0,0.0
-16,32053,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-16,32054,31974,awk,-v,iter=16
 17,685,2,[nv_queue],0.0,1.8
 17,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 17,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -12705,8 +12671,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 17,31970,2,[kworker/9:0],0.0,0.0
 17,31971,1359,sshd:,root@pts/0,0.0
 17,32002,2,[kworker/17:2],0.0,0.0
-17,32056,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-17,32057,31974,awk,-v,iter=17
 18,685,2,[nv_queue],0.0,1.8
 18,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 18,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -13411,8 +13375,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 18,31970,2,[kworker/9:0],0.0,0.0
 18,31971,1359,sshd:,root@pts/0,0.0
 18,32002,2,[kworker/17:2],0.0,0.0
-18,32059,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-18,32060,31974,awk,-v,iter=18
 19,685,2,[nv_queue],0.0,1.8
 19,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 19,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -14117,8 +14079,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 19,31970,2,[kworker/9:0],0.0,0.0
 19,31971,1359,sshd:,root@pts/0,0.0
 19,32002,2,[kworker/17:2],0.0,0.0
-19,32062,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-19,32063,31974,awk,-v,iter=19
 20,685,2,[nv_queue],0.0,1.8
 20,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 20,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -14823,8 +14783,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 20,31970,2,[kworker/9:0],0.0,0.0
 20,31971,1359,sshd:,root@pts/0,0.0
 20,32002,2,[kworker/17:2],0.0,0.0
-20,32065,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-20,32066,31974,awk,-v,iter=20
 21,685,2,[nv_queue],0.0,1.8
 21,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 21,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -15529,8 +15487,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 21,31970,2,[kworker/9:0],0.0,0.0
 21,31971,1359,sshd:,root@pts/0,0.0
 21,32002,2,[kworker/17:2],0.0,0.0
-21,32068,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-21,32069,31974,awk,-v,iter=21
 22,685,2,[nv_queue],0.0,1.8
 22,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 22,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -16235,8 +16191,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 22,31970,2,[kworker/9:0],0.0,0.0
 22,31971,1359,sshd:,root@pts/0,0.0
 22,32002,2,[kworker/17:2],0.0,0.0
-22,32071,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-22,32072,31974,awk,-v,iter=22
 23,685,2,[nv_queue],0.0,1.8
 23,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 23,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -16941,8 +16895,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 23,31970,2,[kworker/9:0],0.0,0.0
 23,31971,1359,sshd:,root@pts/0,0.0
 23,32002,2,[kworker/17:2],0.0,0.0
-23,32074,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-23,32075,31974,awk,-v,iter=23
 24,685,2,[nv_queue],0.0,1.8
 24,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 24,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -17647,8 +17599,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 24,31970,2,[kworker/9:0],0.0,0.0
 24,31971,1359,sshd:,root@pts/0,0.0
 24,32002,2,[kworker/17:2],0.0,0.0
-24,32077,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-24,32078,31974,awk,-v,iter=24
 25,685,2,[nv_queue],0.0,1.8
 25,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 25,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -18353,8 +18303,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 25,31970,2,[kworker/9:0],0.0,0.0
 25,31971,1359,sshd:,root@pts/0,0.0
 25,32002,2,[kworker/17:2],0.0,0.0
-25,32080,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-25,32081,31974,awk,-v,iter=25
 26,685,2,[nv_queue],0.0,1.8
 26,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 26,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -19059,8 +19007,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 26,31970,2,[kworker/9:0],0.0,0.0
 26,31971,1359,sshd:,root@pts/0,0.0
 26,32002,2,[kworker/17:2],0.0,0.0
-26,32083,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-26,32084,31974,awk,-v,iter=26
 27,685,2,[nv_queue],0.0,1.8
 27,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 27,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -19765,8 +19711,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 27,31970,2,[kworker/9:0],0.0,0.0
 27,31971,1359,sshd:,root@pts/0,0.0
 27,32002,2,[kworker/17:2],0.0,0.0
-27,32086,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-27,32087,31974,awk,-v,iter=27
 28,685,2,[nv_queue],0.0,1.8
 28,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 28,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -20471,8 +20415,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 28,31970,2,[kworker/9:0],0.0,0.0
 28,31971,1359,sshd:,root@pts/0,0.0
 28,32002,2,[kworker/17:2],0.0,0.0
-28,32089,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-28,32090,31974,awk,-v,iter=28
 29,685,2,[nv_queue],0.0,1.8
 29,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 29,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -21177,8 +21119,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 29,31970,2,[kworker/9:0],0.0,0.0
 29,31971,1359,sshd:,root@pts/0,0.0
 29,32002,2,[kworker/17:2],0.0,0.0
-29,32092,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-29,32093,31974,awk,-v,iter=29
 30,685,2,[nv_queue],0.0,1.8
 30,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 30,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -21883,8 +21823,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 30,31970,2,[kworker/9:0],0.0,0.0
 30,31971,1359,sshd:,root@pts/0,0.0
 30,32002,2,[kworker/17:2],0.0,0.0
-30,32095,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-30,32096,31974,awk,-v,iter=30
 31,685,2,[nv_queue],0.0,1.8
 31,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 31,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -22589,8 +22527,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 31,31970,2,[kworker/9:0],0.0,0.0
 31,31971,1359,sshd:,root@pts/0,0.0
 31,32002,2,[kworker/17:2],0.0,0.0
-31,32098,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-31,32099,31974,awk,-v,iter=31
 32,685,2,[nv_queue],0.0,1.8
 32,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 32,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -23295,8 +23231,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 32,31970,2,[kworker/9:0],0.0,0.0
 32,31971,1359,sshd:,root@pts/0,0.0
 32,32002,2,[kworker/17:2],0.0,0.0
-32,32101,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-32,32102,31974,awk,-v,iter=32
 33,685,2,[nv_queue],0.0,1.8
 33,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 33,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -24001,8 +23935,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 33,31970,2,[kworker/9:0],0.0,0.0
 33,31971,1359,sshd:,root@pts/0,0.0
 33,32002,2,[kworker/17:2],0.0,0.0
-33,32104,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-33,32105,31974,awk,-v,iter=33
 34,685,2,[nv_queue],0.0,1.8
 34,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 34,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -24707,8 +24639,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 34,31970,2,[kworker/9:0],0.0,0.0
 34,31971,1359,sshd:,root@pts/0,0.0
 34,32002,2,[kworker/17:2],0.0,0.0
-34,32107,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-34,32108,31974,awk,-v,iter=34
 35,685,2,[nv_queue],0.0,1.8
 35,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 35,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -25413,8 +25343,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 35,31970,2,[kworker/9:0],0.0,0.0
 35,31971,1359,sshd:,root@pts/0,0.0
 35,32002,2,[kworker/17:2],0.0,0.0
-35,32110,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-35,32111,31974,awk,-v,iter=35
 36,685,2,[nv_queue],0.0,1.8
 36,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 36,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -26119,8 +26047,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 36,31970,2,[kworker/9:0],0.0,0.0
 36,31971,1359,sshd:,root@pts/0,0.0
 36,32002,2,[kworker/17:2],0.0,0.0
-36,32113,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-36,32114,31974,awk,-v,iter=36
 37,685,2,[nv_queue],0.0,1.8
 37,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 37,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -26825,8 +26751,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 37,31970,2,[kworker/9:0],0.0,0.0
 37,31971,1359,sshd:,root@pts/0,0.0
 37,32002,2,[kworker/17:2],0.0,0.0
-37,32116,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-37,32117,31974,awk,-v,iter=37
 38,685,2,[nv_queue],0.0,1.8
 38,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.6
 38,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -27531,8 +27455,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 38,31970,2,[kworker/9:0],0.0,0.0
 38,31971,1359,sshd:,root@pts/0,0.0
 38,32002,2,[kworker/17:2],0.0,0.0
-38,32119,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-38,32120,31974,awk,-v,iter=38
 39,685,2,[nv_queue],0.0,1.8
 39,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 39,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -28237,8 +28159,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 39,31970,2,[kworker/9:0],0.0,0.0
 39,31971,1359,sshd:,root@pts/0,0.0
 39,32002,2,[kworker/17:2],0.0,0.0
-39,32122,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-39,32123,31974,awk,-v,iter=39
 40,685,2,[nv_queue],0.0,1.8
 40,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 40,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -28943,8 +28863,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 40,31970,2,[kworker/9:0],0.0,0.0
 40,31971,1359,sshd:,root@pts/0,0.0
 40,32002,2,[kworker/17:2],0.0,0.0
-40,32125,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-40,32126,31974,awk,-v,iter=40
 41,685,2,[nv_queue],0.0,1.8
 41,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 41,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -29649,8 +29567,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 41,31970,2,[kworker/9:0],0.0,0.0
 41,31971,1359,sshd:,root@pts/0,0.0
 41,32002,2,[kworker/17:2],0.0,0.0
-41,32128,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-41,32129,31974,awk,-v,iter=41
 42,685,2,[nv_queue],0.0,1.8
 42,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 42,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -30355,8 +30271,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 42,31970,2,[kworker/9:0],0.0,0.0
 42,31971,1359,sshd:,root@pts/0,0.0
 42,32002,2,[kworker/17:2],0.0,0.0
-42,32131,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-42,32132,31974,awk,-v,iter=42
 43,685,2,[nv_queue],0.0,1.8
 43,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 43,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -31061,8 +30975,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 43,31970,2,[kworker/9:0],0.0,0.0
 43,31971,1359,sshd:,root@pts/0,0.0
 43,32002,2,[kworker/17:2],0.0,0.0
-43,32134,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-43,32135,31974,awk,-v,iter=43
 44,685,2,[nv_queue],0.0,1.8
 44,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 44,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -31767,8 +31679,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 44,31970,2,[kworker/9:0],0.0,0.0
 44,31971,1359,sshd:,root@pts/0,0.0
 44,32002,2,[kworker/17:2],0.0,0.0
-44,32137,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-44,32138,31974,awk,-v,iter=44
 45,685,2,[nv_queue],0.0,1.8
 45,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 45,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -32473,8 +32383,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 45,31970,2,[kworker/9:0],0.0,0.0
 45,31971,1359,sshd:,root@pts/0,0.0
 45,32002,2,[kworker/17:2],0.0,0.0
-45,32140,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-45,32141,31974,awk,-v,iter=45
 46,685,2,[nv_queue],0.0,1.8
 46,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 46,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -33179,8 +33087,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 46,31970,2,[kworker/9:0],0.0,0.0
 46,31971,1359,sshd:,root@pts/0,0.0
 46,32002,2,[kworker/17:2],0.0,0.0
-46,32143,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-46,32144,31974,awk,-v,iter=46
 47,685,2,[nv_queue],0.0,1.8
 47,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 47,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -33885,8 +33791,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 47,31970,2,[kworker/9:0],0.0,0.0
 47,31971,1359,sshd:,root@pts/0,0.0
 47,32002,2,[kworker/17:2],0.0,0.0
-47,32146,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-47,32147,31974,awk,-v,iter=47
 48,685,2,[nv_queue],0.0,1.8
 48,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 48,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -34591,8 +34495,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 48,31970,2,[kworker/9:0],0.0,0.0
 48,31971,1359,sshd:,root@pts/0,0.0
 48,32002,2,[kworker/17:2],0.0,0.0
-48,32149,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-48,32150,31974,awk,-v,iter=48
 49,685,2,[nv_queue],0.0,1.8
 49,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 49,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -35297,8 +35199,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 49,31970,2,[kworker/9:0],0.0,0.0
 49,31971,1359,sshd:,root@pts/0,0.0
 49,32002,2,[kworker/17:2],0.0,0.0
-49,32152,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-49,32153,31974,awk,-v,iter=49
 50,685,2,[nv_queue],0.0,1.8
 50,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 50,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -36003,8 +35903,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 50,31970,2,[kworker/9:0],0.0,0.0
 50,31971,1359,sshd:,root@pts/0,0.0
 50,32002,2,[kworker/17:2],0.0,0.0
-50,32155,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-50,32156,31974,awk,-v,iter=50
 51,685,2,[nv_queue],0.0,1.8
 51,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 51,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -36709,8 +36607,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 51,31970,2,[kworker/9:0],0.0,0.0
 51,31971,1359,sshd:,root@pts/0,0.0
 51,32002,2,[kworker/17:2],0.0,0.0
-51,32158,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-51,32159,31974,awk,-v,iter=51
 52,685,2,[nv_queue],0.0,1.8
 52,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 52,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -37415,8 +37311,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 52,31970,2,[kworker/9:0],0.0,0.0
 52,31971,1359,sshd:,root@pts/0,0.0
 52,32002,2,[kworker/17:2],0.0,0.0
-52,32161,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-52,32162,31974,awk,-v,iter=52
 53,685,2,[nv_queue],0.0,1.8
 53,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 53,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -38121,8 +38015,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 53,31970,2,[kworker/9:0],0.0,0.0
 53,31971,1359,sshd:,root@pts/0,0.0
 53,32002,2,[kworker/17:2],0.0,0.0
-53,32164,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-53,32165,31974,awk,-v,iter=53
 54,685,2,[nv_queue],0.0,1.8
 54,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 54,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -38827,8 +38719,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 54,31970,2,[kworker/9:0],0.0,0.0
 54,31971,1359,sshd:,root@pts/0,0.0
 54,32002,2,[kworker/17:2],0.0,0.0
-54,32167,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-54,32168,31974,awk,-v,iter=54
 55,685,2,[nv_queue],0.0,1.8
 55,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 55,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -39533,8 +39423,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 55,31970,2,[kworker/9:0],0.0,0.0
 55,31971,1359,sshd:,root@pts/0,0.0
 55,32002,2,[kworker/17:2],0.0,0.0
-55,32170,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-55,32171,31974,awk,-v,iter=55
 56,685,2,[nv_queue],0.0,1.8
 56,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 56,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -40239,8 +40127,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 56,31970,2,[kworker/9:0],0.0,0.0
 56,31971,1359,sshd:,root@pts/0,0.0
 56,32002,2,[kworker/17:2],0.0,0.0
-56,32173,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-56,32174,31974,awk,-v,iter=56
 57,685,2,[nv_queue],0.0,1.8
 57,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 57,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -40945,8 +40831,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 57,31970,2,[kworker/9:0],0.0,0.0
 57,31971,1359,sshd:,root@pts/0,0.0
 57,32002,2,[kworker/17:2],0.0,0.0
-57,32176,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-57,32177,31974,awk,-v,iter=57
 58,685,2,[nv_queue],0.0,1.8
 58,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 58,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -41651,8 +41535,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 58,31970,2,[kworker/9:0],0.0,0.0
 58,31971,1359,sshd:,root@pts/0,0.0
 58,32002,2,[kworker/17:2],0.0,0.0
-58,32179,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-58,32180,31974,awk,-v,iter=58
 59,685,2,[nv_queue],0.0,1.8
 59,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 59,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -42357,8 +42239,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 59,31970,2,[kworker/9:0],0.0,0.0
 59,31971,1359,sshd:,root@pts/0,0.0
 59,32002,2,[kworker/17:2],0.0,0.0
-59,32182,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-59,32183,31974,awk,-v,iter=59
 60,685,2,[nv_queue],0.0,1.8
 60,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 60,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -43063,8 +42943,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 60,31970,2,[kworker/9:0],0.0,0.0
 60,31971,1359,sshd:,root@pts/0,0.0
 60,32002,2,[kworker/17:2],0.0,0.0
-60,32185,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-60,32186,31974,awk,-v,iter=60
 61,685,2,[nv_queue],0.0,1.8
 61,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 61,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -43769,8 +43647,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 61,31970,2,[kworker/9:0],0.0,0.0
 61,31971,1359,sshd:,root@pts/0,0.0
 61,32002,2,[kworker/17:2],0.0,0.0
-61,32188,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-61,32189,31974,awk,-v,iter=61
 62,685,2,[nv_queue],0.0,1.8
 62,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 62,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -44475,8 +44351,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 62,31970,2,[kworker/9:0],0.0,0.0
 62,31971,1359,sshd:,root@pts/0,0.0
 62,32002,2,[kworker/17:2],0.0,0.0
-62,32191,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-62,32192,31974,awk,-v,iter=62
 63,685,2,[nv_queue],0.0,1.8
 63,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 63,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -45181,8 +45055,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 63,31970,2,[kworker/9:0],0.0,0.0
 63,31971,1359,sshd:,root@pts/0,0.0
 63,32002,2,[kworker/17:2],0.0,0.0
-63,32194,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-63,32195,31974,awk,-v,iter=63
 64,685,2,[nv_queue],0.0,1.8
 64,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 64,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -45887,8 +45759,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 64,31970,2,[kworker/9:0],0.0,0.0
 64,31971,1359,sshd:,root@pts/0,0.0
 64,32002,2,[kworker/17:2],0.0,0.0
-64,32197,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-64,32198,31974,awk,-v,iter=64
 65,685,2,[nv_queue],0.0,1.8
 65,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 65,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -46593,8 +46463,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 65,31970,2,[kworker/9:0],0.0,0.0
 65,31971,1359,sshd:,root@pts/0,0.0
 65,32002,2,[kworker/17:2],0.0,0.0
-65,32200,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-65,32201,31974,awk,-v,iter=65
 66,685,2,[nv_queue],0.0,1.8
 66,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 66,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -47299,8 +47167,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 66,31970,2,[kworker/9:0],0.0,0.0
 66,31971,1359,sshd:,root@pts/0,0.0
 66,32002,2,[kworker/17:2],0.0,0.0
-66,32203,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-66,32204,31974,awk,-v,iter=66
 67,685,2,[nv_queue],0.0,1.8
 67,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 67,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -48005,8 +47871,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 67,31970,2,[kworker/9:0],0.0,0.0
 67,31971,1359,sshd:,root@pts/0,0.0
 67,32002,2,[kworker/17:2],0.0,0.0
-67,32206,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-67,32207,31974,awk,-v,iter=67
 68,685,2,[nv_queue],0.0,1.8
 68,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 68,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -48711,8 +48575,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 68,31970,2,[kworker/9:0],0.0,0.0
 68,31971,1359,sshd:,root@pts/0,0.0
 68,32002,2,[kworker/17:2],0.0,0.0
-68,32209,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-68,32210,31974,awk,-v,iter=68
 69,685,2,[nv_queue],0.0,1.8
 69,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 69,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -49417,8 +49279,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 69,31970,2,[kworker/9:0],0.0,0.0
 69,31971,1359,sshd:,root@pts/0,0.0
 69,32002,2,[kworker/17:2],0.0,0.0
-69,32212,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-69,32213,31974,awk,-v,iter=69
 70,685,2,[nv_queue],0.0,1.8
 70,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 70,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -50123,8 +49983,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 70,31970,2,[kworker/9:0],0.0,0.0
 70,31971,1359,sshd:,root@pts/0,0.0
 70,32002,2,[kworker/17:2],0.0,0.0
-70,32215,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-70,32216,31974,awk,-v,iter=70
 71,685,2,[nv_queue],0.0,1.8
 71,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 71,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -50829,8 +50687,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 71,31970,2,[kworker/9:0],0.0,0.0
 71,31971,1359,sshd:,root@pts/0,0.0
 71,32002,2,[kworker/17:2],0.0,0.0
-71,32218,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-71,32219,31974,awk,-v,iter=71
 72,685,2,[nv_queue],0.0,1.8
 72,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 72,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -51535,8 +51391,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 72,31970,2,[kworker/9:0],0.0,0.0
 72,31971,1359,sshd:,root@pts/0,0.0
 72,32002,2,[kworker/17:2],0.0,0.0
-72,32221,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-72,32222,31974,awk,-v,iter=72
 73,685,2,[nv_queue],0.0,1.8
 73,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 73,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -52241,8 +52095,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 73,31971,1359,sshd:,root@pts/0,0.0
 73,31974,31971,-bash,0.0,0.0
 73,32002,2,[kworker/17:2],0.0,0.0
-73,32224,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-73,32225,31974,awk,-v,iter=73
 74,685,2,[nv_queue],0.0,1.8
 74,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 74,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -52947,8 +52799,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 74,31971,1359,sshd:,root@pts/0,0.0
 74,31974,31971,-bash,0.0,0.0
 74,32002,2,[kworker/17:2],0.0,0.0
-74,32227,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-74,32228,31974,awk,-v,iter=74
 75,685,2,[nv_queue],0.0,1.8
 75,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 75,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -53653,8 +53503,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 75,31970,2,[kworker/9:0],0.0,0.0
 75,31971,1359,sshd:,root@pts/0,0.0
 75,32002,2,[kworker/17:2],0.0,0.0
-75,32230,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-75,32231,31974,awk,-v,iter=75
 76,685,2,[nv_queue],0.0,1.8
 76,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 76,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -54359,8 +54207,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 76,31970,2,[kworker/9:0],0.0,0.0
 76,31971,1359,sshd:,root@pts/0,0.0
 76,32002,2,[kworker/17:2],0.0,0.0
-76,32233,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-76,32234,31974,awk,-v,iter=76
 77,685,2,[nv_queue],0.0,1.8
 77,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.5
 77,1565,1452,/usr/bin/gnome-shell,0.1,0.4
@@ -55065,8 +54911,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 77,31970,2,[kworker/9:0],0.0,0.0
 77,31971,1359,sshd:,root@pts/0,0.0
 77,32002,2,[kworker/17:2],0.0,0.0
-77,32236,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-77,32237,31974,awk,-v,iter=77
 78,685,2,[nv_queue],0.0,1.8
 78,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 78,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -55771,8 +55615,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 78,31970,2,[kworker/9:0],0.0,0.0
 78,31971,1359,sshd:,root@pts/0,0.0
 78,32002,2,[kworker/17:2],0.0,0.0
-78,32239,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-78,32240,31974,awk,-v,iter=78
 79,685,2,[nv_queue],0.0,1.8
 79,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 79,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -56477,8 +56319,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 79,31970,2,[kworker/9:0],0.0,0.0
 79,31971,1359,sshd:,root@pts/0,0.0
 79,32002,2,[kworker/17:2],0.0,0.0
-79,32242,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-79,32243,31974,awk,-v,iter=79
 80,685,2,[nv_queue],0.0,1.8
 80,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 80,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -57183,8 +57023,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 80,31970,2,[kworker/9:0],0.0,0.0
 80,31971,1359,sshd:,root@pts/0,0.0
 80,32002,2,[kworker/17:2],0.0,0.0
-80,32245,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-80,32246,31974,awk,-v,iter=80
 81,685,2,[nv_queue],0.0,1.8
 81,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 81,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -57889,8 +57727,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 81,31970,2,[kworker/9:0],0.0,0.0
 81,31971,1359,sshd:,root@pts/0,0.0
 81,32002,2,[kworker/17:2],0.0,0.0
-81,32248,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-81,32249,31974,awk,-v,iter=81
 82,685,2,[nv_queue],0.0,1.8
 82,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 82,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -58595,8 +58431,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 82,31970,2,[kworker/9:0],0.0,0.0
 82,31971,1359,sshd:,root@pts/0,0.0
 82,32002,2,[kworker/17:2],0.0,0.0
-82,32251,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-82,32252,31974,awk,-v,iter=82
 83,685,2,[nv_queue],0.0,1.8
 83,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 83,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -59301,8 +59135,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 83,31971,1359,sshd:,root@pts/0,0.0
 83,31974,31971,-bash,0.0,0.0
 83,32002,2,[kworker/17:2],0.0,0.0
-83,32254,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-83,32255,31974,awk,-v,iter=83
 84,685,2,[nv_queue],0.0,1.8
 84,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 84,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -60007,8 +59839,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 84,31971,1359,sshd:,root@pts/0,0.0
 84,31974,31971,-bash,0.0,0.0
 84,32002,2,[kworker/17:2],0.0,0.0
-84,32257,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-84,32258,31974,awk,-v,iter=84
 85,685,2,[nv_queue],0.0,1.8
 85,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 85,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -60713,8 +60543,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 85,31971,1359,sshd:,root@pts/0,0.0
 85,31974,31971,-bash,0.0,0.0
 85,32002,2,[kworker/17:2],0.0,0.0
-85,32260,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-85,32261,31974,awk,-v,iter=85
 86,685,2,[nv_queue],0.0,1.8
 86,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 86,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -61419,8 +61247,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 86,31971,1359,sshd:,root@pts/0,0.0
 86,31974,31971,-bash,0.0,0.0
 86,32002,2,[kworker/17:2],0.0,0.0
-86,32263,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-86,32264,31974,awk,-v,iter=86
 87,685,2,[nv_queue],0.0,1.8
 87,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 87,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -62125,8 +61951,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 87,31971,1359,sshd:,root@pts/0,0.0
 87,31974,31971,-bash,0.0,0.0
 87,32002,2,[kworker/17:2],0.0,0.0
-87,32266,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-87,32267,31974,awk,-v,iter=87
 88,685,2,[nv_queue],0.0,1.8
 88,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 88,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -62831,8 +62655,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 88,31970,2,[kworker/9:0],0.0,0.0
 88,31971,1359,sshd:,root@pts/0,0.0
 88,32002,2,[kworker/17:2],0.0,0.0
-88,32269,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-88,32270,31974,awk,-v,iter=88
 89,685,2,[nv_queue],0.0,1.8
 89,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 89,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -63537,8 +63359,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 89,31970,2,[kworker/9:0],0.0,0.0
 89,31971,1359,sshd:,root@pts/0,0.0
 89,32002,2,[kworker/17:2],0.0,0.0
-89,32272,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-89,32273,31974,awk,-v,iter=89
 90,685,2,[nv_queue],0.0,1.8
 90,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 90,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -64243,8 +64063,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 90,31970,2,[kworker/9:0],0.0,0.0
 90,31971,1359,sshd:,root@pts/0,0.0
 90,32002,2,[kworker/17:2],0.0,0.0
-90,32275,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-90,32276,31974,awk,-v,iter=90
 91,685,2,[nv_queue],0.0,1.8
 91,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 91,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -64949,8 +64767,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 91,31970,2,[kworker/9:0],0.0,0.0
 91,31971,1359,sshd:,root@pts/0,0.0
 91,32002,2,[kworker/17:2],0.0,0.0
-91,32278,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-91,32279,31974,awk,-v,iter=91
 92,685,2,[nv_queue],0.0,1.8
 92,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 92,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -65655,8 +65471,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 92,31970,2,[kworker/9:0],0.0,0.0
 92,31971,1359,sshd:,root@pts/0,0.0
 92,32002,2,[kworker/17:2],0.0,0.0
-92,32281,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-92,32282,31974,awk,-v,iter=92
 93,685,2,[nv_queue],0.0,1.8
 93,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 93,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -66361,8 +66175,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 93,31970,2,[kworker/9:0],0.0,0.0
 93,31971,1359,sshd:,root@pts/0,0.0
 93,32002,2,[kworker/17:2],0.0,0.0
-93,32284,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-93,32285,31974,awk,-v,iter=93
 94,685,2,[nv_queue],0.0,1.8
 94,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 94,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -67067,8 +66879,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 94,31970,2,[kworker/9:0],0.0,0.0
 94,31971,1359,sshd:,root@pts/0,0.0
 94,32002,2,[kworker/17:2],0.0,0.0
-94,32287,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-94,32288,31974,awk,-v,iter=94
 95,685,2,[nv_queue],0.0,1.8
 95,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 95,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -67773,8 +67583,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 95,31970,2,[kworker/9:0],0.0,0.0
 95,31971,1359,sshd:,root@pts/0,0.0
 95,32002,2,[kworker/17:2],0.0,0.0
-95,32290,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-95,32291,31974,awk,-v,iter=95
 96,685,2,[nv_queue],0.0,1.8
 96,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 96,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -68479,8 +68287,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 96,31970,2,[kworker/9:0],0.0,0.0
 96,31971,1359,sshd:,root@pts/0,0.0
 96,32002,2,[kworker/17:2],0.0,0.0
-96,32293,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-96,32294,31974,awk,-v,iter=96
 97,685,2,[nv_queue],0.0,1.8
 97,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 97,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -69185,8 +68991,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 97,31970,2,[kworker/9:0],0.0,0.0
 97,31971,1359,sshd:,root@pts/0,0.0
 97,32002,2,[kworker/17:2],0.0,0.0
-97,32296,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-97,32297,31974,awk,-v,iter=97
 98,685,2,[nv_queue],0.0,1.8
 98,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 98,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -69891,8 +69695,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 98,31970,2,[kworker/9:0],0.0,0.0
 98,31971,1359,sshd:,root@pts/0,0.0
 98,32002,2,[kworker/17:2],0.0,0.0
-98,32299,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-98,32300,31974,awk,-v,iter=98
 99,685,2,[nv_queue],0.0,1.8
 99,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 99,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -70597,8 +70399,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 99,31970,2,[kworker/9:0],0.0,0.0
 99,31971,1359,sshd:,root@pts/0,0.0
 99,32002,2,[kworker/17:2],0.0,0.0
-99,32302,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-99,32303,31974,awk,-v,iter=99
 100,685,2,[nv_queue],0.0,1.8
 100,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 100,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -71303,8 +71103,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 100,31970,2,[kworker/9:0],0.0,0.0
 100,31971,1359,sshd:,root@pts/0,0.0
 100,32002,2,[kworker/17:2],0.0,0.0
-100,32305,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-100,32306,31974,awk,-v,iter=100
 101,685,2,[nv_queue],0.0,1.8
 101,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 101,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -72009,8 +71807,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 101,31970,2,[kworker/9:0],0.0,0.0
 101,31971,1359,sshd:,root@pts/0,0.0
 101,32002,2,[kworker/17:2],0.0,0.0
-101,32308,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-101,32309,31974,awk,-v,iter=101
 102,685,2,[nv_queue],0.0,1.8
 102,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 102,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -72715,8 +72511,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 102,31971,1359,sshd:,root@pts/0,0.0
 102,31974,31971,-bash,0.0,0.0
 102,32002,2,[kworker/17:2],0.0,0.0
-102,32311,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-102,32312,31974,awk,-v,iter=102
 103,685,2,[nv_queue],0.0,1.8
 103,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 103,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -73421,8 +73215,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 103,31970,2,[kworker/9:0],0.0,0.0
 103,31971,1359,sshd:,root@pts/0,0.0
 103,32002,2,[kworker/17:2],0.0,0.0
-103,32314,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-103,32315,31974,awk,-v,iter=103
 104,685,2,[nv_queue],0.0,1.8
 104,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 104,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -74127,8 +73919,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 104,31970,2,[kworker/9:0],0.0,0.0
 104,31971,1359,sshd:,root@pts/0,0.0
 104,32002,2,[kworker/17:2],0.0,0.0
-104,32317,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-104,32318,31974,awk,-v,iter=104
 105,685,2,[nv_queue],0.0,1.8
 105,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 105,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -74833,8 +74623,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 105,31970,2,[kworker/9:0],0.0,0.0
 105,31971,1359,sshd:,root@pts/0,0.0
 105,32002,2,[kworker/17:2],0.0,0.0
-105,32320,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-105,32321,31974,awk,-v,iter=105
 106,685,2,[nv_queue],0.0,1.8
 106,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 106,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -75539,8 +75327,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 106,31970,2,[kworker/9:0],0.0,0.0
 106,31971,1359,sshd:,root@pts/0,0.0
 106,32002,2,[kworker/17:2],0.0,0.0
-106,32323,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-106,32324,31974,awk,-v,iter=106
 107,685,2,[nv_queue],0.0,1.8
 107,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 107,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -76245,8 +76031,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 107,31970,2,[kworker/9:0],0.0,0.0
 107,31971,1359,sshd:,root@pts/0,0.0
 107,32002,2,[kworker/17:2],0.0,0.0
-107,32326,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-107,32327,31974,awk,-v,iter=107
 108,685,2,[nv_queue],0.0,1.8
 108,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 108,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -76951,8 +76735,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 108,31970,2,[kworker/9:0],0.0,0.0
 108,31971,1359,sshd:,root@pts/0,0.0
 108,32002,2,[kworker/17:2],0.0,0.0
-108,32329,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-108,32330,31974,awk,-v,iter=108
 109,685,2,[nv_queue],0.0,1.8
 109,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 109,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -77657,8 +77439,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 109,31970,2,[kworker/9:0],0.0,0.0
 109,31971,1359,sshd:,root@pts/0,0.0
 109,32002,2,[kworker/17:2],0.0,0.0
-109,32332,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-109,32333,31974,awk,-v,iter=109
 110,685,2,[nv_queue],0.0,1.8
 110,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 110,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -78363,8 +78143,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 110,31970,2,[kworker/9:0],0.0,0.0
 110,31971,1359,sshd:,root@pts/0,0.0
 110,32002,2,[kworker/17:2],0.0,0.0
-110,32335,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-110,32336,31974,awk,-v,iter=110
 111,685,2,[nv_queue],0.0,1.8
 111,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 111,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -79069,8 +78847,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 111,31970,2,[kworker/9:0],0.0,0.0
 111,31971,1359,sshd:,root@pts/0,0.0
 111,32002,2,[kworker/17:2],0.0,0.0
-111,32338,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-111,32339,31974,awk,-v,iter=111
 112,685,2,[nv_queue],0.0,1.8
 112,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 112,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -79775,8 +79551,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 112,31971,1359,sshd:,root@pts/0,0.0
 112,31974,31971,-bash,0.0,0.0
 112,32002,2,[kworker/17:2],0.0,0.0
-112,32341,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-112,32342,31974,awk,-v,iter=112
 113,685,2,[nv_queue],0.0,1.8
 113,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 113,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -80481,8 +80255,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 113,31971,1359,sshd:,root@pts/0,0.0
 113,31974,31971,-bash,0.0,0.0
 113,32002,2,[kworker/17:2],0.0,0.0
-113,32344,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-113,32345,31974,awk,-v,iter=113
 114,685,2,[nv_queue],0.0,1.8
 114,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 114,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -81187,8 +80959,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 114,31970,2,[kworker/9:0],0.0,0.0
 114,31971,1359,sshd:,root@pts/0,0.0
 114,32002,2,[kworker/17:2],0.0,0.0
-114,32347,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-114,32348,31974,awk,-v,iter=114
 115,685,2,[nv_queue],0.0,1.8
 115,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 115,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -81893,8 +81663,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 115,31970,2,[kworker/9:0],0.0,0.0
 115,31971,1359,sshd:,root@pts/0,0.0
 115,32002,2,[kworker/17:2],0.0,0.0
-115,32351,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-115,32352,31974,awk,-v,iter=115
 116,685,2,[nv_queue],0.0,1.8
 116,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 116,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -82599,8 +82367,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 116,31970,2,[kworker/9:0],0.0,0.0
 116,31971,1359,sshd:,root@pts/0,0.0
 116,32002,2,[kworker/17:2],0.0,0.0
-116,32354,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-116,32355,31974,awk,-v,iter=116
 117,685,2,[nv_queue],0.0,1.8
 117,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 117,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -83305,8 +83071,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 117,31970,2,[kworker/9:0],0.0,0.0
 117,31971,1359,sshd:,root@pts/0,0.0
 117,32002,2,[kworker/17:2],0.0,0.0
-117,32357,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-117,32358,31974,awk,-v,iter=117
 118,685,2,[nv_queue],0.0,1.8
 118,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 118,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -84011,8 +83775,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 118,31970,2,[kworker/9:0],0.0,0.0
 118,31971,1359,sshd:,root@pts/0,0.0
 118,32002,2,[kworker/17:2],0.0,0.0
-118,32360,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-118,32361,31974,awk,-v,iter=118
 119,685,2,[nv_queue],0.0,1.8
 119,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 119,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -84717,8 +84479,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 119,31970,2,[kworker/9:0],0.0,0.0
 119,31971,1359,sshd:,root@pts/0,0.0
 119,32002,2,[kworker/17:2],0.0,0.0
-119,32363,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-119,32364,31974,awk,-v,iter=119
 120,685,2,[nv_queue],0.0,1.8
 120,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 120,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -85423,8 +85183,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 120,31970,2,[kworker/9:0],0.0,0.0
 120,31971,1359,sshd:,root@pts/0,0.0
 120,32002,2,[kworker/17:2],0.0,0.0
-120,32366,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-120,32367,31974,awk,-v,iter=120
 121,685,2,[nv_queue],0.0,1.8
 121,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 121,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -86129,8 +85887,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 121,31970,2,[kworker/9:0],0.0,0.0
 121,31971,1359,sshd:,root@pts/0,0.0
 121,32002,2,[kworker/17:2],0.0,0.0
-121,32369,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-121,32370,31974,awk,-v,iter=121
 122,685,2,[nv_queue],0.0,1.8
 122,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 122,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -86835,8 +86591,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 122,31971,1359,sshd:,root@pts/0,0.0
 122,31974,31971,-bash,0.0,0.0
 122,32002,2,[kworker/17:2],0.0,0.0
-122,32372,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-122,32373,31974,awk,-v,iter=122
 123,685,2,[nv_queue],0.0,1.8
 123,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 123,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -87541,8 +87295,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 123,31971,1359,sshd:,root@pts/0,0.0
 123,31974,31971,-bash,0.0,0.0
 123,32002,2,[kworker/17:2],0.0,0.0
-123,32375,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-123,32376,31974,awk,-v,iter=123
 124,685,2,[nv_queue],0.0,1.8
 124,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 124,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -88247,8 +87999,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 124,31971,1359,sshd:,root@pts/0,0.0
 124,31974,31971,-bash,0.0,0.0
 124,32002,2,[kworker/17:2],0.0,0.0
-124,32378,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-124,32379,31974,awk,-v,iter=124
 125,685,2,[nv_queue],0.0,1.8
 125,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 125,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -88953,8 +88703,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 125,31971,1359,sshd:,root@pts/0,0.0
 125,31974,31971,-bash,0.0,0.0
 125,32002,2,[kworker/17:2],0.0,0.0
-125,32381,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-125,32382,31974,awk,-v,iter=125
 126,685,2,[nv_queue],0.0,1.8
 126,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 126,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -89659,8 +89407,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 126,31970,2,[kworker/9:0],0.0,0.0
 126,31971,1359,sshd:,root@pts/0,0.0
 126,32002,2,[kworker/17:2],0.0,0.0
-126,32384,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-126,32385,31974,awk,-v,iter=126
 127,685,2,[nv_queue],0.0,1.8
 127,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 127,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -90365,8 +90111,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 127,31970,2,[kworker/9:0],0.0,0.0
 127,31971,1359,sshd:,root@pts/0,0.0
 127,32002,2,[kworker/17:2],0.0,0.0
-127,32387,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-127,32388,31974,awk,-v,iter=127
 128,685,2,[nv_queue],0.0,1.8
 128,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 128,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -91071,8 +90815,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 128,31970,2,[kworker/9:0],0.0,0.0
 128,31971,1359,sshd:,root@pts/0,0.0
 128,32002,2,[kworker/17:2],0.0,0.0
-128,32390,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-128,32391,31974,awk,-v,iter=128
 129,685,2,[nv_queue],0.0,1.8
 129,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 129,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -91777,8 +91519,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 129,31970,2,[kworker/9:0],0.0,0.0
 129,31971,1359,sshd:,root@pts/0,0.0
 129,32002,2,[kworker/17:2],0.0,0.0
-129,32393,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-129,32394,31974,awk,-v,iter=129
 130,685,2,[nv_queue],0.0,1.8
 130,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 130,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -92483,8 +92223,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 130,31970,2,[kworker/9:0],0.0,0.0
 130,31971,1359,sshd:,root@pts/0,0.0
 130,32002,2,[kworker/17:2],0.0,0.0
-130,32396,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-130,32397,31974,awk,-v,iter=130
 131,685,2,[nv_queue],0.0,1.8
 131,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 131,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -93189,8 +92927,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 131,31970,2,[kworker/9:0],0.0,0.0
 131,31971,1359,sshd:,root@pts/0,0.0
 131,32002,2,[kworker/17:2],0.0,0.0
-131,32399,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-131,32400,31974,awk,-v,iter=131
 132,685,2,[nv_queue],0.0,1.8
 132,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 132,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -93895,8 +93631,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 132,31971,1359,sshd:,root@pts/0,0.0
 132,31974,31971,-bash,0.0,0.0
 132,32002,2,[kworker/17:2],0.0,0.0
-132,32402,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-132,32403,31974,awk,-v,iter=132
 133,685,2,[nv_queue],0.0,1.8
 133,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 133,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -94601,8 +94335,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 133,31971,1359,sshd:,root@pts/0,0.0
 133,31974,31971,-bash,0.0,0.0
 133,32002,2,[kworker/17:2],0.0,0.0
-133,32405,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-133,32406,31974,awk,-v,iter=133
 134,685,2,[nv_queue],0.0,1.8
 134,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 134,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -95307,8 +95039,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 134,31971,1359,sshd:,root@pts/0,0.0
 134,31974,31971,-bash,0.0,0.0
 134,32002,2,[kworker/17:2],0.0,0.0
-134,32408,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-134,32409,31974,awk,-v,iter=134
 135,685,2,[nv_queue],0.0,1.8
 135,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 135,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.4
@@ -96013,8 +95743,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 135,31971,1359,sshd:,root@pts/0,0.0
 135,31974,31971,-bash,0.0,0.0
 135,32002,2,[kworker/17:2],0.0,0.0
-135,32411,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-135,32412,31974,awk,-v,iter=135
 136,685,2,[nv_queue],0.0,1.8
 136,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 136,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -96719,8 +96447,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 136,31971,1359,sshd:,root@pts/0,0.0
 136,31974,31971,-bash,0.0,0.0
 136,32002,2,[kworker/17:2],0.0,0.0
-136,32414,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-136,32415,31974,awk,-v,iter=136
 137,685,2,[nv_queue],0.0,1.8
 137,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 137,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -97425,8 +97151,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 137,31971,1359,sshd:,root@pts/0,0.0
 137,31974,31971,-bash,0.0,0.0
 137,32002,2,[kworker/17:2],0.0,0.0
-137,32417,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-137,32418,31974,awk,-v,iter=137
 138,685,2,[nv_queue],0.0,1.8
 138,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 138,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -98131,8 +97855,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 138,31971,1359,sshd:,root@pts/0,0.0
 138,31974,31971,-bash,0.0,0.0
 138,32002,2,[kworker/17:2],0.0,0.0
-138,32420,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-138,32421,31974,awk,-v,iter=138
 139,685,2,[nv_queue],0.0,1.8
 139,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 139,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -98837,8 +98559,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 139,31971,1359,sshd:,root@pts/0,0.0
 139,31974,31971,-bash,0.0,0.0
 139,32002,2,[kworker/17:2],0.0,0.0
-139,32423,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-139,32424,31974,awk,-v,iter=139
 140,685,2,[nv_queue],0.0,1.8
 140,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 140,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -99535,8 +99255,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 140,31971,1359,sshd:,root@pts/0,0.0
 140,31974,31971,-bash,0.0,0.0
 140,32002,2,[kworker/17:2],0.0,0.0
-140,32426,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-140,32427,31974,awk,-v,iter=140
 141,685,2,[nv_queue],0.0,1.8
 141,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 141,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -100228,8 +99946,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 141,31971,1359,sshd:,root@pts/0,0.0
 141,31974,31971,-bash,0.0,0.0
 141,32002,2,[kworker/17:2],0.0,0.0
-141,32429,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-141,32430,31974,awk,-v,iter=141
 142,685,2,[nv_queue],0.0,1.8
 142,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 142,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -100919,8 +100635,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 142,31971,1359,sshd:,root@pts/0,0.0
 142,31974,31971,-bash,0.0,0.0
 142,32002,2,[kworker/17:2],0.0,0.0
-142,32432,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-142,32433,31974,awk,-v,iter=142
 143,685,2,[nv_queue],0.0,1.8
 143,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 143,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -101609,8 +101323,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 143,31971,1359,sshd:,root@pts/0,0.0
 143,31974,31971,-bash,0.0,0.0
 143,32002,2,[kworker/17:2],0.0,0.0
-143,32435,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-143,32436,31974,awk,-v,iter=143
 144,685,2,[nv_queue],0.0,1.8
 144,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 144,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -102299,8 +102011,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 144,31971,1359,sshd:,root@pts/0,0.0
 144,31974,31971,-bash,0.0,0.0
 144,32002,2,[kworker/17:2],0.0,0.0
-144,32438,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-144,32439,31974,awk,-v,iter=144
 145,685,2,[nv_queue],0.0,1.8
 145,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 145,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -102986,8 +102696,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 145,31971,1359,sshd:,root@pts/0,0.0
 145,31974,31971,-bash,0.0,0.0
 145,32002,2,[kworker/17:2],0.0,0.0
-145,32441,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-145,32442,31974,awk,-v,iter=145
 146,685,2,[nv_queue],0.0,1.8
 146,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 146,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -103673,8 +103381,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 146,31971,1359,sshd:,root@pts/0,0.0
 146,31974,31971,-bash,0.0,0.0
 146,32002,2,[kworker/17:2],0.0,0.0
-146,32444,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-146,32445,31974,awk,-v,iter=146
 147,685,2,[nv_queue],0.0,1.8
 147,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 147,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -104360,8 +104066,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 147,31971,1359,sshd:,root@pts/0,0.0
 147,31974,31971,-bash,0.0,0.0
 147,32002,2,[kworker/17:2],0.0,0.0
-147,32447,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-147,32448,31974,awk,-v,iter=147
 148,685,2,[nv_queue],0.0,1.8
 148,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 148,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -105047,8 +104751,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 148,31971,1359,sshd:,root@pts/0,0.0
 148,31974,31971,-bash,0.0,0.0
 148,32002,2,[kworker/17:2],0.0,0.0
-148,32450,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-148,32451,31974,awk,-v,iter=148
 149,685,2,[nv_queue],0.0,1.8
 149,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 149,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -105734,8 +105436,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 149,31971,1359,sshd:,root@pts/0,0.0
 149,31974,31971,-bash,0.0,0.0
 149,32002,2,[kworker/17:2],0.0,0.0
-149,32453,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-149,32454,31974,awk,-v,iter=149
 150,685,2,[nv_queue],0.0,1.8
 150,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 150,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -106421,8 +106121,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 150,31971,1359,sshd:,root@pts/0,0.0
 150,31974,31971,-bash,0.0,0.0
 150,32002,2,[kworker/17:2],0.0,0.0
-150,32456,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-150,32457,31974,awk,-v,iter=150
 151,685,2,[nv_queue],0.0,1.8
 151,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 151,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -107108,8 +106806,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 151,31971,1359,sshd:,root@pts/0,0.0
 151,31974,31971,-bash,0.0,0.0
 151,32002,2,[kworker/17:2],0.0,0.0
-151,32459,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-151,32460,31974,awk,-v,iter=151
 152,685,2,[nv_queue],0.0,1.8
 152,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 152,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -107795,8 +107491,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 152,31971,1359,sshd:,root@pts/0,0.0
 152,31974,31971,-bash,0.0,0.0
 152,32002,2,[kworker/17:2],0.0,0.0
-152,32462,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-152,32463,31974,awk,-v,iter=152
 153,685,2,[nv_queue],0.0,1.8
 153,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 153,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -108481,8 +108175,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 153,31971,1359,sshd:,root@pts/0,0.0
 153,31974,31971,-bash,0.0,0.0
 153,32002,2,[kworker/17:2],0.0,0.0
-153,32465,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-153,32466,31974,awk,-v,iter=153
 154,685,2,[nv_queue],0.0,1.8
 154,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 154,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -109167,8 +108859,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 154,31971,1359,sshd:,root@pts/0,0.0
 154,31974,31971,-bash,0.0,0.0
 154,32002,2,[kworker/17:2],0.0,0.0
-154,32468,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-154,32469,31974,awk,-v,iter=154
 155,685,2,[nv_queue],0.0,1.8
 155,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 155,31806,2,[kworker/u96:0-mlx5_cmd_000,0.0,0.3
@@ -109853,8 +109543,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 155,31971,1359,sshd:,root@pts/0,0.0
 155,31974,31971,-bash,0.0,0.0
 155,32002,2,[kworker/17:2],0.0,0.0
-155,32471,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-155,32472,31974,awk,-v,iter=155
 156,685,2,[nv_queue],0.0,1.8
 156,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 156,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -110476,8 +110164,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 156,31971,1359,sshd:,root@pts/0,0.0
 156,31974,31971,-bash,0.0,0.0
 156,32002,2,[kworker/17:2],0.0,0.0
-156,32474,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-156,32475,31974,awk,-v,iter=156
 157,685,2,[nv_queue],0.0,1.8
 157,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 157,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -111099,8 +110785,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 157,31971,1359,sshd:,root@pts/0,0.0
 157,31974,31971,-bash,0.0,0.0
 157,32002,2,[kworker/17:2],0.0,0.0
-157,32477,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-157,32478,31974,awk,-v,iter=157
 158,685,2,[nv_queue],0.0,1.8
 158,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 158,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -111720,8 +111404,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 158,31971,1359,sshd:,root@pts/0,0.0
 158,31974,31971,-bash,0.0,0.0
 158,32002,2,[kworker/17:2],0.0,0.0
-158,32481,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-158,32482,31974,awk,-v,iter=158
 159,685,2,[nv_queue],0.0,1.8
 159,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 159,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -112341,8 +112023,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 159,31970,2,[kworker/9:0],0.0,0.0
 159,31971,1359,sshd:,root@pts/0,0.0
 159,32002,2,[kworker/17:2],0.0,0.0
-159,32484,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-159,32485,31974,awk,-v,iter=159
 160,685,2,[nv_queue],0.0,1.8
 160,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 160,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -112962,8 +112642,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 160,31970,2,[kworker/9:0],0.0,0.0
 160,31971,1359,sshd:,root@pts/0,0.0
 160,32002,2,[kworker/17:2],0.0,0.0
-160,32487,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-160,32488,31974,awk,-v,iter=160
 161,685,2,[nv_queue],0.0,1.8
 161,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 161,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -113583,8 +113261,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 161,31970,2,[kworker/9:0],0.0,0.0
 161,31971,1359,sshd:,root@pts/0,0.0
 161,32002,2,[kworker/17:2],0.0,0.0
-161,32490,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-161,32491,31974,awk,-v,iter=161
 162,685,2,[nv_queue],0.0,1.8
 162,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 162,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -114204,8 +113880,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 162,31970,2,[kworker/9:0],0.0,0.0
 162,31971,1359,sshd:,root@pts/0,0.0
 162,32002,2,[kworker/17:2],0.0,0.0
-162,32493,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-162,32494,31974,awk,-v,iter=162
 163,685,2,[nv_queue],0.0,1.8
 163,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 163,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -114825,8 +114499,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 163,31970,2,[kworker/9:0],0.0,0.0
 163,31971,1359,sshd:,root@pts/0,0.0
 163,32002,2,[kworker/17:2],0.0,0.0
-163,32496,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-163,32497,31974,awk,-v,iter=163
 164,685,2,[nv_queue],0.0,1.8
 164,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 164,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -115446,8 +115118,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 164,31970,2,[kworker/9:0],0.0,0.0
 164,31971,1359,sshd:,root@pts/0,0.0
 164,32002,2,[kworker/17:2],0.0,0.0
-164,32499,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-164,32500,31974,awk,-v,iter=164
 165,685,2,[nv_queue],0.0,1.8
 165,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 165,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -116067,8 +115737,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 165,31970,2,[kworker/9:0],0.0,0.0
 165,31971,1359,sshd:,root@pts/0,0.0
 165,32002,2,[kworker/17:2],0.0,0.0
-165,32502,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-165,32503,31974,awk,-v,iter=165
 166,685,2,[nv_queue],0.0,1.8
 166,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 166,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -116688,8 +116356,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 166,31970,2,[kworker/9:0],0.0,0.0
 166,31971,1359,sshd:,root@pts/0,0.0
 166,32002,2,[kworker/17:2],0.0,0.0
-166,32505,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-166,32506,31974,awk,-v,iter=166
 167,685,2,[nv_queue],0.0,1.8
 167,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 167,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -117309,8 +116975,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 167,31970,2,[kworker/9:0],0.0,0.0
 167,31971,1359,sshd:,root@pts/0,0.0
 167,32002,2,[kworker/17:2],0.0,0.0
-167,32508,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-167,32509,31974,awk,-v,iter=167
 168,685,2,[nv_queue],0.0,1.8
 168,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 168,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -117930,8 +117594,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 168,31970,2,[kworker/9:0],0.0,0.0
 168,31971,1359,sshd:,root@pts/0,0.0
 168,32002,2,[kworker/17:2],0.0,0.0
-168,32512,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-168,32513,31974,awk,-v,iter=168
 169,685,2,[nv_queue],0.0,1.8
 169,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 169,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -118551,8 +118213,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 169,31970,2,[kworker/9:0],0.0,0.0
 169,31971,1359,sshd:,root@pts/0,0.0
 169,32002,2,[kworker/17:2],0.0,0.0
-169,32515,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-169,32516,31974,awk,-v,iter=169
 170,685,2,[nv_queue],0.0,1.8
 170,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 170,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -119172,8 +118832,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 170,31970,2,[kworker/9:0],0.0,0.0
 170,31971,1359,sshd:,root@pts/0,0.0
 170,32002,2,[kworker/17:2],0.0,0.0
-170,32518,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-170,32519,31974,awk,-v,iter=170
 171,685,2,[nv_queue],0.0,1.8
 171,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 171,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -119790,8 +119448,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 171,31970,2,[kworker/9:0],0.0,0.0
 171,31971,1359,sshd:,root@pts/0,0.0
 171,32002,2,[kworker/17:2],0.0,0.0
-171,32521,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-171,32522,31974,awk,-v,iter=171
 172,685,2,[nv_queue],0.0,1.8
 172,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 172,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -120412,8 +120068,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 172,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 172,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 172,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-172,32529,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-172,32530,31974,awk,-v,iter=172
 173,685,2,[nv_queue],0.0,1.8
 173,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 173,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -121034,8 +120688,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 173,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 173,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 173,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-173,32532,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-173,32533,31974,awk,-v,iter=173
 174,685,2,[nv_queue],0.0,1.8
 174,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 174,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -121656,8 +121308,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 174,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 174,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 174,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-174,32535,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-174,32536,31974,awk,-v,iter=174
 175,685,2,[nv_queue],0.0,1.8
 175,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 175,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -122278,8 +121928,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 175,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 175,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 175,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-175,32538,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-175,32539,31974,awk,-v,iter=175
 176,685,2,[nv_queue],0.0,1.8
 176,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 176,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -122900,8 +122548,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 176,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 176,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 176,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-176,32541,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-176,32542,31974,awk,-v,iter=176
 177,685,2,[nv_queue],0.0,1.8
 177,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 177,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -123522,8 +123168,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 177,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 177,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 177,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-177,32544,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-177,32545,31974,awk,-v,iter=177
 178,685,2,[nv_queue],0.0,1.8
 178,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 178,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -124144,8 +123788,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 178,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 178,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 178,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-178,32547,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-178,32548,31974,awk,-v,iter=178
 179,685,2,[nv_queue],0.0,1.8
 179,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 179,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -124766,8 +124408,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 179,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 179,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 179,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-179,32550,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-179,32551,31974,awk,-v,iter=179
 180,685,2,[nv_queue],0.0,1.8
 180,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 180,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -125388,8 +125028,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 180,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 180,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 180,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-180,32553,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-180,32554,31974,awk,-v,iter=180
 181,685,2,[nv_queue],0.0,1.8
 181,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 181,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -126010,8 +125648,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 181,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 181,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 181,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-181,32556,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-181,32557,31974,awk,-v,iter=181
 182,685,2,[nv_queue],0.0,1.8
 182,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 182,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -126632,8 +126268,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 182,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 182,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 182,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-182,32559,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-182,32560,31974,awk,-v,iter=182
 183,685,2,[nv_queue],0.0,1.8
 183,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 183,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -127254,8 +126888,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 183,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 183,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 183,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-183,32562,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-183,32563,31974,awk,-v,iter=183
 184,685,2,[nv_queue],0.0,1.8
 184,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 184,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -127876,8 +127508,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 184,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 184,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 184,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-184,32565,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-184,32566,31974,awk,-v,iter=184
 185,685,2,[nv_queue],0.0,1.8
 185,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 185,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -128498,8 +128128,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 185,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 185,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 185,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-185,32568,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-185,32569,31974,awk,-v,iter=185
 186,685,2,[nv_queue],0.0,1.8
 186,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 186,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -129120,8 +128748,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 186,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 186,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 186,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-186,32571,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-186,32572,31974,awk,-v,iter=186
 187,685,2,[nv_queue],0.0,1.8
 187,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 187,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -129742,8 +129368,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 187,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 187,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 187,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-187,32574,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-187,32575,31974,awk,-v,iter=187
 188,685,2,[nv_queue],0.0,1.8
 188,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 188,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -130362,8 +129986,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 188,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 188,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 188,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-188,32577,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-188,32578,31974,awk,-v,iter=188
 189,685,2,[nv_queue],0.0,1.8
 189,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 189,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -130981,8 +130603,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 189,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 189,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 189,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-189,32580,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-189,32581,31974,awk,-v,iter=189
 190,685,2,[nv_queue],0.0,1.8
 190,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 190,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -131600,8 +131220,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 190,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 190,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 190,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-190,32583,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-190,32584,31974,awk,-v,iter=190
 191,685,2,[nv_queue],0.0,1.8
 191,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 191,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -132219,8 +131837,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 191,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 191,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 191,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-191,32586,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-191,32587,31974,awk,-v,iter=191
 192,685,2,[nv_queue],0.0,1.8
 192,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 192,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -132838,8 +132454,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 192,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 192,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 192,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-192,32589,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-192,32590,31974,awk,-v,iter=192
 193,685,2,[nv_queue],0.0,1.8
 193,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 193,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -133457,8 +133071,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 193,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 193,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 193,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-193,32592,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-193,32593,31974,awk,-v,iter=193
 194,685,2,[nv_queue],0.0,1.8
 194,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 194,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -134076,8 +133688,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 194,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 194,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 194,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-194,32595,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-194,32596,31974,awk,-v,iter=194
 195,685,2,[nv_queue],0.0,1.8
 195,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 195,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -134695,8 +134305,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 195,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 195,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 195,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-195,32598,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-195,32599,31974,awk,-v,iter=195
 196,685,2,[nv_queue],0.0,1.8
 196,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 196,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -135314,8 +134922,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 196,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 196,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 196,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-196,32601,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-196,32602,31974,awk,-v,iter=196
 197,685,2,[nv_queue],0.0,1.8
 197,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 197,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -135933,8 +135539,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 197,32526,2,[kworker/u96:2-mlx5_cmd_000,0.0,0.0
 197,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 197,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
-197,32604,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-197,32605,31974,awk,-v,iter=197
 198,685,2,[nv_queue],0.0,1.8
 198,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 198,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -136553,8 +136157,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 198,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 198,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 198,32607,2,[kworker/u98:0],0.0,0.0
-198,32608,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-198,32609,31974,awk,-v,iter=198
 199,685,2,[nv_queue],0.0,1.8
 199,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 199,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -137173,8 +136775,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 199,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 199,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 199,32607,2,[kworker/u98:0],0.0,0.0
-199,32611,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-199,32612,31974,awk,-v,iter=199
 200,685,2,[nv_queue],0.0,1.8
 200,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 200,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -137793,8 +137393,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 200,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 200,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 200,32607,2,[kworker/u98:0],0.0,0.0
-200,32614,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-200,32615,31974,awk,-v,iter=200
 201,685,2,[nv_queue],0.0,1.8
 201,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 201,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -138413,8 +138011,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 201,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 201,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 201,32607,2,[kworker/u98:0],0.0,0.0
-201,32617,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-201,32618,31974,awk,-v,iter=201
 202,685,2,[nv_queue],0.0,1.8
 202,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 202,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -139033,8 +138629,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 202,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 202,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 202,32607,2,[kworker/u98:0],0.0,0.0
-202,32620,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-202,32621,31974,awk,-v,iter=202
 203,685,2,[nv_queue],0.0,1.8
 203,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 203,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -139653,8 +139247,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 203,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 203,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 203,32607,2,[kworker/u98:0],0.0,0.0
-203,32623,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-203,32624,31974,awk,-v,iter=203
 204,685,2,[nv_queue],0.0,1.8
 204,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 204,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -140273,8 +139865,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 204,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 204,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 204,32607,2,[kworker/u98:0],0.0,0.0
-204,32626,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-204,32627,31974,awk,-v,iter=204
 205,685,2,[nv_queue],0.0,1.8
 205,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 205,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -140893,8 +140483,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 205,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 205,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 205,32607,2,[kworker/u98:0],0.0,0.0
-205,32629,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-205,32630,31974,awk,-v,iter=205
 206,685,2,[nv_queue],0.0,1.8
 206,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 206,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -141513,8 +141101,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 206,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 206,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 206,32607,2,[kworker/u98:0],0.0,0.0
-206,32632,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-206,32633,31974,awk,-v,iter=206
 207,685,2,[nv_queue],0.0,1.8
 207,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 207,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -142133,8 +141719,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 207,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 207,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 207,32607,2,[kworker/u98:0],0.0,0.0
-207,32635,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-207,32636,31974,awk,-v,iter=207
 208,685,2,[nv_queue],0.0,1.8
 208,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 208,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -142753,8 +142337,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 208,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 208,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 208,32607,2,[kworker/u98:0],0.0,0.0
-208,32638,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-208,32639,31974,awk,-v,iter=208
 209,685,2,[nv_queue],0.0,1.8
 209,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 209,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -143373,8 +142955,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 209,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 209,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 209,32607,2,[kworker/u98:0],0.0,0.0
-209,32641,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-209,32642,31974,awk,-v,iter=209
 210,685,2,[nv_queue],0.0,1.8
 210,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 210,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -143993,8 +143573,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 210,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 210,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 210,32607,2,[kworker/u98:0],0.0,0.0
-210,32644,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-210,32645,31974,awk,-v,iter=210
 211,685,2,[nv_queue],0.0,1.8
 211,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 211,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -144613,8 +144191,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 211,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 211,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 211,32607,2,[kworker/u98:0],0.0,0.0
-211,32647,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-211,32648,31974,awk,-v,iter=211
 212,685,2,[nv_queue],0.0,1.8
 212,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 212,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -145233,8 +144809,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 212,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 212,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 212,32607,2,[kworker/u98:0],0.0,0.0
-212,32650,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-212,32651,31974,awk,-v,iter=212
 213,685,2,[nv_queue],0.0,1.8
 213,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 213,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -145853,8 +145427,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 213,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 213,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 213,32607,2,[kworker/u98:0],0.0,0.0
-213,32653,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-213,32654,31974,awk,-v,iter=213
 214,685,2,[nv_queue],0.0,1.8
 214,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 214,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -146473,8 +146045,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 214,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 214,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 214,32607,2,[kworker/u98:0],0.0,0.0
-214,32656,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-214,32657,31974,awk,-v,iter=214
 215,685,2,[nv_queue],0.0,1.8
 215,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 215,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -147093,8 +146663,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 215,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 215,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 215,32607,2,[kworker/u98:0],0.0,0.0
-215,32659,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-215,32660,31974,awk,-v,iter=215
 216,685,2,[nv_queue],0.0,1.8
 216,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 216,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -147713,8 +147281,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 216,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 216,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 216,32607,2,[kworker/u98:0],0.0,0.0
-216,32662,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-216,32663,31974,awk,-v,iter=216
 217,685,2,[nv_queue],0.0,1.8
 217,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 217,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -148333,8 +147899,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 217,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 217,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 217,32607,2,[kworker/u98:0],0.0,0.0
-217,32665,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-217,32666,31974,awk,-v,iter=217
 218,685,2,[nv_queue],0.0,1.8
 218,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 218,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -148953,8 +148517,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 218,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 218,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 218,32607,2,[kworker/u98:0],0.0,0.0
-218,32668,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-218,32669,31974,awk,-v,iter=218
 219,685,2,[nv_queue],0.0,1.8
 219,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 219,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -149573,8 +149135,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 219,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 219,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 219,32607,2,[kworker/u98:0],0.0,0.0
-219,32671,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-219,32672,31974,awk,-v,iter=219
 220,685,2,[nv_queue],0.0,1.8
 220,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 220,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -150193,8 +149753,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 220,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 220,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 220,32607,2,[kworker/u98:0],0.0,0.0
-220,32674,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-220,32675,31974,awk,-v,iter=220
 221,685,2,[nv_queue],0.0,1.8
 221,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 221,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -150813,8 +150371,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 221,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 221,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 221,32607,2,[kworker/u98:0],0.0,0.0
-221,32677,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-221,32678,31974,awk,-v,iter=221
 222,685,2,[nv_queue],0.0,1.8
 222,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 222,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -151433,8 +150989,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 222,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 222,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 222,32607,2,[kworker/u98:0],0.0,0.0
-222,32680,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-222,32681,31974,awk,-v,iter=222
 223,685,2,[nv_queue],0.0,1.8
 223,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 223,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -152053,8 +151607,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 223,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 223,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 223,32607,2,[kworker/u98:0],0.0,0.0
-223,32683,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-223,32684,31974,awk,-v,iter=223
 224,685,2,[nv_queue],0.0,1.8
 224,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 224,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -152673,8 +152225,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 224,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 224,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 224,32607,2,[kworker/u98:0],0.0,0.0
-224,32686,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-224,32687,31974,awk,-v,iter=224
 225,685,2,[nv_queue],0.0,1.8
 225,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 225,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -153293,8 +152843,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 225,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 225,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 225,32607,2,[kworker/u98:0],0.0,0.0
-225,32689,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-225,32690,31974,awk,-v,iter=225
 226,685,2,[nv_queue],0.0,1.8
 226,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 226,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -153913,8 +153461,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 226,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 226,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 226,32607,2,[kworker/u98:0],0.0,0.0
-226,32692,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-226,32693,31974,awk,-v,iter=226
 227,685,2,[nv_queue],0.0,1.8
 227,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 227,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -154533,8 +154079,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 227,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 227,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 227,32607,2,[kworker/u98:0],0.0,0.0
-227,32695,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-227,32696,31974,awk,-v,iter=227
 228,685,2,[nv_queue],0.0,1.8
 228,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 228,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -155153,8 +154697,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 228,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 228,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 228,32607,2,[kworker/u98:0],0.0,0.0
-228,32698,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-228,32699,31974,awk,-v,iter=228
 229,685,2,[nv_queue],0.0,1.8
 229,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 229,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -155773,8 +155315,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 229,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 229,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 229,32607,2,[kworker/u98:0],0.0,0.0
-229,32701,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-229,32702,31974,awk,-v,iter=229
 230,685,2,[nv_queue],0.0,1.8
 230,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 230,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -156393,8 +155933,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 230,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 230,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 230,32607,2,[kworker/u98:0],0.0,0.0
-230,32704,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-230,32705,31974,awk,-v,iter=230
 231,685,2,[nv_queue],0.0,1.8
 231,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 231,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -157013,8 +156551,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 231,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 231,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 231,32607,2,[kworker/u98:0],0.0,0.0
-231,32707,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-231,32708,31974,awk,-v,iter=231
 232,685,2,[nv_queue],0.0,1.8
 232,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 232,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -157633,8 +157169,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 232,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 232,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 232,32607,2,[kworker/u98:0],0.0,0.0
-232,32710,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-232,32711,31974,awk,-v,iter=232
 233,685,2,[nv_queue],0.0,1.8
 233,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 233,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -158253,8 +157787,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 233,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 233,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 233,32607,2,[kworker/u98:0],0.0,0.0
-233,32713,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-233,32714,31974,awk,-v,iter=233
 234,685,2,[nv_queue],0.0,1.8
 234,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 234,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -158873,8 +158405,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 234,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 234,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 234,32607,2,[kworker/u98:0],0.0,0.0
-234,32716,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-234,32717,31974,awk,-v,iter=234
 235,685,2,[nv_queue],0.0,1.8
 235,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 235,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -159493,8 +159023,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 235,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 235,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 235,32607,2,[kworker/u98:0],0.0,0.0
-235,32719,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-235,32720,31974,awk,-v,iter=235
 236,685,2,[nv_queue],0.0,1.8
 236,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 236,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -160113,8 +159641,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 236,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 236,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 236,32607,2,[kworker/u98:0],0.0,0.0
-236,32722,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-236,32723,31974,awk,-v,iter=236
 237,685,2,[nv_queue],0.0,1.8
 237,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 237,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -160733,8 +160259,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 237,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 237,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 237,32607,2,[kworker/u98:0],0.0,0.0
-237,32725,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-237,32726,31974,awk,-v,iter=237
 238,685,2,[nv_queue],0.0,1.8
 238,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 238,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -161353,8 +160877,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 238,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 238,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 238,32607,2,[kworker/u98:0],0.0,0.0
-238,32728,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-238,32729,31974,awk,-v,iter=238
 239,685,2,[nv_queue],0.0,1.8
 239,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 239,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -161973,8 +161495,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 239,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 239,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 239,32607,2,[kworker/u98:0],0.0,0.0
-239,32731,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-239,32732,31974,awk,-v,iter=239
 240,685,2,[nv_queue],0.0,1.8
 240,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 240,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -162593,8 +162113,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 240,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 240,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 240,32607,2,[kworker/u98:0],0.0,0.0
-240,32734,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-240,32735,31974,awk,-v,iter=240
 241,685,2,[nv_queue],0.0,1.8
 241,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 241,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -163213,8 +162731,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 241,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 241,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 241,32607,2,[kworker/u98:0],0.0,0.0
-241,32737,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-241,32738,31974,awk,-v,iter=241
 242,685,2,[nv_queue],0.0,1.8
 242,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 242,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -163833,8 +163349,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 242,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 242,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 242,32607,2,[kworker/u98:0],0.0,0.0
-242,32740,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-242,32741,31974,awk,-v,iter=242
 243,685,2,[nv_queue],0.0,1.8
 243,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 243,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -164453,8 +163967,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 243,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 243,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 243,32607,2,[kworker/u98:0],0.0,0.0
-243,32743,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-243,32744,31974,awk,-v,iter=243
 244,685,2,[nv_queue],0.0,1.8
 244,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 244,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -165073,8 +164585,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 244,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 244,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 244,32607,2,[kworker/u98:0],0.0,0.0
-244,32746,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-244,32747,31974,awk,-v,iter=244
 245,685,2,[nv_queue],0.0,1.8
 245,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 245,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -165693,8 +165203,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 245,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 245,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 245,32607,2,[kworker/u98:0],0.0,0.0
-245,32749,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-245,32750,31974,awk,-v,iter=245
 246,685,2,[nv_queue],0.0,1.8
 246,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 246,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -166313,8 +165821,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 246,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 246,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 246,32607,2,[kworker/u98:0],0.0,0.0
-246,32752,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-246,32753,31974,awk,-v,iter=246
 247,685,2,[nv_queue],0.0,1.8
 247,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 247,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -166933,8 +166439,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 247,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 247,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 247,32607,2,[kworker/u98:0],0.0,0.0
-247,32755,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-247,32756,31974,awk,-v,iter=247
 248,685,2,[nv_queue],0.0,1.8
 248,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 248,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -167553,8 +167057,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 248,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 248,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 248,32607,2,[kworker/u98:0],0.0,0.0
-248,32758,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-248,32759,31974,awk,-v,iter=248
 249,685,2,[nv_queue],0.0,1.8
 249,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 249,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -168173,8 +167675,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 249,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 249,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 249,32607,2,[kworker/u98:0],0.0,0.0
-249,32761,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-249,32762,31974,awk,-v,iter=249
 250,685,2,[nv_queue],0.0,1.8
 250,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 250,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -168793,8 +168293,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 250,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 250,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 250,32607,2,[kworker/u98:0],0.0,0.0
-250,32764,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-250,32765,31974,awk,-v,iter=250
 251,685,2,[nv_queue],0.0,1.8
 251,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 251,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -169413,8 +168911,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 251,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 251,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 251,32607,2,[kworker/u98:0],0.0,0.0
-251,32767,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-251,32768,31974,awk,-v,iter=251
 252,685,2,[nv_queue],0.0,1.8
 252,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 252,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -170033,8 +169529,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 252,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 252,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 252,32607,2,[kworker/u98:0],0.0,0.0
-252,32770,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-252,32771,31974,awk,-v,iter=252
 253,685,2,[nv_queue],0.0,1.8
 253,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 253,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -170653,8 +170147,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 253,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 253,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 253,32607,2,[kworker/u98:0],0.0,0.0
-253,32773,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-253,32774,31974,awk,-v,iter=253
 254,685,2,[nv_queue],0.0,1.8
 254,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 254,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -171273,8 +170765,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 254,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 254,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 254,32607,2,[kworker/u98:0],0.0,0.0
-254,32776,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-254,32777,31974,awk,-v,iter=254
 255,685,2,[nv_queue],0.0,1.8
 255,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 255,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -171893,8 +171383,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 255,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 255,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 255,32607,2,[kworker/u98:0],0.0,0.0
-255,32779,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-255,32780,31974,awk,-v,iter=255
 256,685,2,[nv_queue],0.0,1.8
 256,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 256,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -172513,8 +172001,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 256,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 256,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 256,32607,2,[kworker/u98:0],0.0,0.0
-256,32782,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-256,32783,31974,awk,-v,iter=256
 257,685,2,[nv_queue],0.0,1.8
 257,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 257,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -173133,8 +172619,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 257,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 257,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 257,32607,2,[kworker/u98:0],0.0,0.0
-257,32785,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-257,32786,31974,awk,-v,iter=257
 258,685,2,[nv_queue],0.0,1.8
 258,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 258,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -173753,8 +173237,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 258,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 258,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 258,32607,2,[kworker/u98:0],0.0,0.0
-258,32788,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-258,32789,31974,awk,-v,iter=258
 259,685,2,[nv_queue],0.0,1.8
 259,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 259,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -174373,8 +173855,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 259,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 259,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 259,32607,2,[kworker/u98:0],0.0,0.0
-259,32791,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-259,32792,31974,awk,-v,iter=259
 260,685,2,[nv_queue],0.0,1.8
 260,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 260,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -174993,8 +174473,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 260,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 260,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 260,32607,2,[kworker/u98:0],0.0,0.0
-260,32794,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-260,32795,31974,awk,-v,iter=260
 261,685,2,[nv_queue],0.0,1.8
 261,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 261,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -175613,8 +175091,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 261,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 261,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 261,32607,2,[kworker/u98:0],0.0,0.0
-261,32797,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-261,32798,31974,awk,-v,iter=261
 262,685,2,[nv_queue],0.0,1.8
 262,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 262,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -176233,8 +175709,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 262,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 262,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 262,32607,2,[kworker/u98:0],0.0,0.0
-262,32800,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-262,32801,31974,awk,-v,iter=262
 263,685,2,[nv_queue],0.0,1.8
 263,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 263,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -176853,8 +176327,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 263,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 263,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 263,32607,2,[kworker/u98:0],0.0,0.0
-263,32803,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-263,32804,31974,awk,-v,iter=263
 264,685,2,[nv_queue],0.0,1.8
 264,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 264,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -177473,8 +176945,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 264,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 264,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 264,32607,2,[kworker/u98:0],0.0,0.0
-264,32806,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-264,32807,31974,awk,-v,iter=264
 265,685,2,[nv_queue],0.0,1.8
 265,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 265,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -178093,8 +177563,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 265,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 265,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 265,32607,2,[kworker/u98:0],0.0,0.0
-265,32809,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-265,32810,31974,awk,-v,iter=265
 266,685,2,[nv_queue],0.0,1.8
 266,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 266,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -178713,8 +178181,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 266,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 266,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 266,32607,2,[kworker/u98:0],0.0,0.0
-266,32812,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-266,32813,31974,awk,-v,iter=266
 267,685,2,[nv_queue],0.0,1.8
 267,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 267,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -179333,8 +178799,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 267,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 267,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 267,32607,2,[kworker/u98:0],0.0,0.0
-267,32815,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-267,32816,31974,awk,-v,iter=267
 268,685,2,[nv_queue],0.0,1.8
 268,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 268,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -179953,8 +179417,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 268,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 268,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 268,32607,2,[kworker/u98:0],0.0,0.0
-268,32818,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-268,32819,31974,awk,-v,iter=268
 269,685,2,[nv_queue],0.0,1.8
 269,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 269,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -180573,8 +180035,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 269,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 269,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 269,32607,2,[kworker/u98:0],0.0,0.0
-269,32821,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-269,32822,31974,awk,-v,iter=269
 270,685,2,[nv_queue],0.0,1.8
 270,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 270,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -181193,8 +180653,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 270,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 270,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 270,32607,2,[kworker/u98:0],0.0,0.0
-270,32824,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-270,32825,31974,awk,-v,iter=270
 271,685,2,[nv_queue],0.0,1.8
 271,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 271,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -181813,8 +181271,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 271,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 271,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 271,32607,2,[kworker/u98:0],0.0,0.0
-271,32827,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-271,32828,31974,awk,-v,iter=271
 272,685,2,[nv_queue],0.0,1.8
 272,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 272,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -182433,8 +181889,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 272,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 272,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 272,32607,2,[kworker/u98:0],0.0,0.0
-272,32830,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-272,32831,31974,awk,-v,iter=272
 273,685,2,[nv_queue],0.0,1.8
 273,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 273,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -183053,8 +182507,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 273,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 273,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 273,32607,2,[kworker/u98:0],0.0,0.0
-273,32833,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-273,32834,31974,awk,-v,iter=273
 274,685,2,[nv_queue],0.0,1.8
 274,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 274,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -183673,8 +183125,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 274,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 274,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 274,32607,2,[kworker/u98:0],0.0,0.0
-274,32836,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-274,32837,31974,awk,-v,iter=274
 275,685,2,[nv_queue],0.0,1.8
 275,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 275,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -184293,8 +183743,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 275,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 275,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 275,32607,2,[kworker/u98:0],0.0,0.0
-275,32839,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-275,32840,31974,awk,-v,iter=275
 276,685,2,[nv_queue],0.0,1.8
 276,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 276,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -184913,8 +184361,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 276,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 276,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 276,32607,2,[kworker/u98:0],0.0,0.0
-276,32842,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-276,32843,31974,awk,-v,iter=276
 277,685,2,[nv_queue],0.0,1.8
 277,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 277,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -185533,8 +184979,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 277,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 277,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 277,32607,2,[kworker/u98:0],0.0,0.0
-277,32845,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-277,32846,31974,awk,-v,iter=277
 278,685,2,[nv_queue],0.0,1.8
 278,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 278,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -186153,8 +185597,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 278,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 278,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 278,32607,2,[kworker/u98:0],0.0,0.0
-278,32848,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-278,32849,31974,awk,-v,iter=278
 279,685,2,[nv_queue],0.0,1.8
 279,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 279,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -186773,8 +186215,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 279,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 279,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 279,32607,2,[kworker/u98:0],0.0,0.0
-279,32851,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-279,32852,31974,awk,-v,iter=279
 280,685,2,[nv_queue],0.0,1.8
 280,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 280,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -187393,8 +186833,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 280,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 280,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 280,32607,2,[kworker/u98:0],0.0,0.0
-280,32854,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-280,32855,31974,awk,-v,iter=280
 281,685,2,[nv_queue],0.0,1.8
 281,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 281,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -188013,8 +187451,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 281,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 281,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 281,32607,2,[kworker/u98:0],0.0,0.0
-281,32857,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-281,32858,31974,awk,-v,iter=281
 282,685,2,[nv_queue],0.0,1.8
 282,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 282,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -188633,8 +188069,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 282,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 282,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 282,32607,2,[kworker/u98:0],0.0,0.0
-282,32860,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-282,32861,31974,awk,-v,iter=282
 283,685,2,[nv_queue],0.0,1.8
 283,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 283,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -189253,8 +188687,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 283,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 283,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 283,32607,2,[kworker/u98:0],0.0,0.0
-283,32863,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-283,32864,31974,awk,-v,iter=283
 284,685,2,[nv_queue],0.0,1.8
 284,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 284,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -189873,8 +189305,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 284,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 284,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 284,32607,2,[kworker/u98:0],0.0,0.0
-284,32866,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-284,32867,31974,awk,-v,iter=284
 285,685,2,[nv_queue],0.0,1.8
 285,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 285,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -190493,8 +189923,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 285,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 285,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 285,32607,2,[kworker/u98:0],0.0,0.0
-285,32869,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-285,32870,31974,awk,-v,iter=285
 286,685,2,[nv_queue],0.0,1.8
 286,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 286,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -191113,8 +190541,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 286,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 286,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 286,32607,2,[kworker/u98:0],0.0,0.0
-286,32872,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-286,32873,31974,awk,-v,iter=286
 287,685,2,[nv_queue],0.0,1.8
 287,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 287,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -191733,8 +191159,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 287,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 287,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 287,32607,2,[kworker/u98:0],0.0,0.0
-287,32875,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-287,32876,31974,awk,-v,iter=287
 288,685,2,[nv_queue],0.0,1.8
 288,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 288,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -192353,8 +191777,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 288,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 288,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 288,32607,2,[kworker/u98:0],0.0,0.0
-288,32878,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-288,32879,31974,awk,-v,iter=288
 289,685,2,[nv_queue],0.0,1.8
 289,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 289,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -192973,8 +192395,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 289,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 289,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 289,32607,2,[kworker/u98:0],0.0,0.0
-289,32881,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-289,32882,31974,awk,-v,iter=289
 290,685,2,[nv_queue],0.0,1.8
 290,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 290,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -193593,8 +193013,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 290,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 290,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 290,32607,2,[kworker/u98:0],0.0,0.0
-290,32884,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-290,32885,31974,awk,-v,iter=290
 291,685,2,[nv_queue],0.0,1.8
 291,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 291,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -194213,8 +193631,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 291,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 291,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 291,32607,2,[kworker/u98:0],0.0,0.0
-291,32887,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-291,32888,31974,awk,-v,iter=291
 292,685,2,[nv_queue],0.0,1.8
 292,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 292,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -194833,8 +194249,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 292,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 292,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 292,32607,2,[kworker/u98:0],0.0,0.0
-292,32890,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-292,32891,31974,awk,-v,iter=292
 293,685,2,[nv_queue],0.0,1.8
 293,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 293,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -195453,8 +194867,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 293,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 293,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 293,32607,2,[kworker/u98:0],0.0,0.0
-293,32893,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-293,32894,31974,awk,-v,iter=293
 294,685,2,[nv_queue],0.0,1.8
 294,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 294,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -196073,8 +195485,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 294,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 294,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 294,32607,2,[kworker/u98:0],0.0,0.0
-294,32896,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-294,32897,31974,awk,-v,iter=294
 295,685,2,[nv_queue],0.0,1.8
 295,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 295,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -196693,8 +196103,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 295,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 295,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 295,32607,2,[kworker/u98:0],0.0,0.0
-295,32899,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-295,32900,31974,awk,-v,iter=295
 296,685,2,[nv_queue],0.0,1.8
 296,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 296,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -197313,8 +196721,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 296,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 296,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 296,32607,2,[kworker/u98:0],0.0,0.0
-296,32902,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-296,32903,31974,awk,-v,iter=296
 297,685,2,[nv_queue],0.0,1.8
 297,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 297,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -197933,8 +197339,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 297,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 297,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 297,32607,2,[kworker/u98:0],0.0,0.0
-297,32905,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-297,32906,31974,awk,-v,iter=297
 298,685,2,[nv_queue],0.0,1.8
 298,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 298,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -198553,8 +197957,6 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 298,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 298,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 298,32607,2,[kworker/u98:0],0.0,0.0
-298,32908,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-298,32909,31974,awk,-v,iter=298
 299,685,2,[nv_queue],0.0,1.8
 299,1565,1452,/usr/bin/gnome-shell,0.1,0.4
 299,1401,1399,/usr/lib/xorg/Xorg,vt1,-dis
@@ -199173,5 +198575,3 @@ Iteration,PID,PPID,CMD,%MEM,%CPU
 299,32527,2,[kworker/u96:3-mlx5_cmd_000,0.0,0.0
 299,32528,2,[kworker/u96:6-mkey_cache],0.0,0.0
 299,32607,2,[kworker/u98:0],0.0,0.0
-299,32911,31974,ps,-eo,pid,ppid,cmd,%mem,%c
-299,32912,31974,awk,-v,iter=299
