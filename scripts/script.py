@@ -11,7 +11,7 @@ import pprint
 from pymongo import MongoClient
 from datetime import datetime
 
-# so here we"re just doing some basic dotenv imports to get our db password
+# so here we're just doing some basic dotenv imports to get our db password
 load_dotenv(find_dotenv())
 my_password = os.environ.get("RAHUL_PASS")
 
@@ -59,12 +59,16 @@ doc = {}
 def fetch_intial_metrics():
     intial_doc = {}
     for metric_name, metric_query in INITIAL_METRICS.items():
-        response = (requests.get(url=PROMETHEUS_URL, params={"query":metric_query})).json()
-        response = response["data"]["result"][0]["value"][1]
-        intial_doc[metric_name] = response
+        if metric_name == 'GPU Info':
+            response = (requests.get(url=PROMETHEUS_URL, params={"query":metric_query})).json()
+            response = response["data"]["result"][0]['metric']['name']
+            intial_doc[metric_name] = response
+        else:
+            response = (requests.get(url=PROMETHEUS_URL, params={"query":metric_query})).json()
+            response = response["data"]["result"][0]["value"][1]
+            intial_doc[metric_name] = response        
     intial_doc["Start Time"] = INTIAL_TIME_STRING
-
-
+    doc['Inital'] = intial_doc
 
 count = 0
 
