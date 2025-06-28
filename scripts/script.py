@@ -30,14 +30,11 @@ og_col = og_db['test_gpu_metrics']
 PROMETHEUS_URL = "http://localhost:9090/api/v1/query"
 
 
-#this was our sample query - (like bro this is like not even that much work fr fr)
-QUERY = 'nvidia_smi_gpu_info'
-
 #metrics we only would need to collect once 
 INITIAL_METRICS = {
-    'Power Limit (Watts)': 'nvidia_smi_power_default_limit_watts', # initial -- collect once
-    "Memory Clock Limit (MHz)":'nvidia_smi_clocks_max_memory_clock_hz', # initial -- collect once
-    'Total Memory Allocation (MB)':"nvidia_smi_memory_total_bytes", # initial -- collect once
+    'Power Limit (Watts)': 'nvidia_smi_power_default_limit_watts', 
+    "Memory Clock Limit (MHz)":'nvidia_smi_clocks_max_memory_clock_hz', 
+    'Total Memory Allocation (MB)':"nvidia_smi_memory_total_bytes", 
     "GPU Clock Limit (MHz)":'nvidia_smi_clocks_max_graphics_clock_hz',
 }
 
@@ -52,15 +49,9 @@ LIVE_METRICS = {
     'Memory Utilization (%)':"nvidia_smi_utilization_memory_ratio",
 }
 
+INITAL_TIME = datetime.now()
+INTIAL_TIME_STRING = INITAL_TIME.strftime("%H:%M:%S")
 
-#function for fetching all the metrics (request each one by one) and then structing the metrics into a dictionary
-#that we insert into as a single observation or data point into MongoDB
-
-stages = ['idle', 'background', 'download', 'interaction']
-curr_stage = stages[3]
-
-initial = datetime.now()
-time_string = initial.strftime("%H:%M:%S")
 
 count = 0
 
