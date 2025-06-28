@@ -70,31 +70,24 @@ def fetch_intial_metrics():
     intial_doc["Start Time"] = INTIAL_TIME_STRING
     doc['Inital'] = intial_doc
 
-count = 0
+count = 1
 
 def fetch_metrics():
-    doc = { }
-    for metric_name, metric_query in metrics.items():
+    live_doc = { }
+    for metric_name, metric_query in LIVE_METRICS.items():
         response = requests.get(PROMETHEUS_URL, params={"query":metric_query})
         results = response.json()
         result = results["data"]["result"][0]["value"][1]        
-        doc[metric_name] = float(result)
+        live_doc[metric_name] = float(result)
     
-    response = requests.get(PROMETHEUS_URL, params={"query":QUERY})
-    response = response.json()
-    doc["GPU Info"] = response["data"]["result"][0]["metric"]["name"]
-    
-    doc["Start Time"] = time_string
     now = datetime.now()
-    timedelta = now - initial
-    doc ["Current Time"]  = now.strftime("%H:%M:%S")
-    doc["Time Delta"] = timedelta.seconds
-    
-    doc["Test Stage"] = curr_stage
-    
-    og_col.insert_one(doc)
+    timedelta = now - INITAL_TIME
+    live_doc ["Current Time"]  = now.strftime("%H:%M:%S")
+    live_doc["Time Delta"] = timedelta.seconds
+    live_doc['Status'] = "Live"
+    live_doc['Iteration'] = count
     print(f"Finished Collecting Collection #{count + 1}")
-    
+
 
 while(True):
     fetch_metrics()
