@@ -54,8 +54,6 @@ INITAL_TIME = datetime.now()
 INTIAL_TIME_STRING = INITAL_TIME.strftime("%H:%M:%S")
 
 
-doc = {}
-
 def fetch_intial_metrics():
     intial_doc = {}
     for metric_name, metric_query in INITIAL_METRICS.items():
@@ -68,7 +66,8 @@ def fetch_intial_metrics():
             response = response["data"]["result"][0]["value"][1]
             intial_doc[metric_name] = response        
     intial_doc["Start Time"] = INTIAL_TIME_STRING
-    doc['Inital'] = intial_doc
+    intial_doc["Status"] = "Initial"
+    og_col.insert_one(intial_doc)
 
 count = 1
 
@@ -87,6 +86,7 @@ def fetch_metrics():
     live_doc['Status'] = "Live"
     live_doc['Iteration'] = count
     print(f"Finished Collecting Collection #{count + 1}")
+    og_col.insert_one(live_doc)
 
 
 while(True):
