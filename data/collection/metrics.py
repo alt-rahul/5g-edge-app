@@ -22,7 +22,7 @@ client = MongoClient(connection_string)
 
 #filtering client into our specific database and collection
 og_db = client["main"]
-og_col = og_db["test_gpu_metrics"]
+og_col = og_db["init_stage"]
 
 
 #because we"re using prometheus locally (set up local ports using orobit) we"re 
@@ -85,7 +85,7 @@ def fetch_metrics():
     live_doc["Time Delta"] = timedelta.seconds
     live_doc['Status'] = "Live"
     live_doc['Iteration'] = count
-    print(f"Finished Collecting Collection #{count + 1}")
+    print(f"Finished Collecting Collection #{count}")
     og_col.insert_one(live_doc)
 
 
