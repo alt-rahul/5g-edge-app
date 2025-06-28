@@ -22,3 +22,12 @@ cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local
 make -j$(nproc)
 sudo make install
 
+#this may not work, but there is a fix to this:
+sudo rm -rf /usr/local/bin/cmake /usr/local/bin/ctest /usr/local/bin/cpack /usr/local/bin/cmake-gui
+sudo rm -rf /usr/local/share/cmake-*
+sudo rm -rf /usr/local/lib/cmake
+
+    #redo lines 9-23 above, check version if it doesn't work do the following:
+    echo $PATH
+    export PATH=/usr/local/bin:$PATH
+    source ~/.bashrc
