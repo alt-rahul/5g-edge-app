@@ -36,6 +36,7 @@ INITIAL_METRICS = {
     "Memory Clock Limit (MHz)":'nvidia_smi_clocks_max_memory_clock_hz', 
     'Total Memory Allocation (MB)':"nvidia_smi_memory_total_bytes", 
     "GPU Clock Limit (MHz)":'nvidia_smi_clocks_max_graphics_clock_hz',
+    "GPU Info": ""
 }
 
 #these are all the metrics we'll be collecting from prometheus
@@ -51,6 +52,18 @@ LIVE_METRICS = {
 
 INITAL_TIME = datetime.now()
 INTIAL_TIME_STRING = INITAL_TIME.strftime("%H:%M:%S")
+
+
+doc = {}
+
+def fetch_intial_metrics():
+    intial_doc = {}
+    for metric_name, metric_query in INITIAL_METRICS.items():
+        response = (requests.get(url=PROMETHEUS_URL, params={'query':metric_query})).json()
+        response = response['data']["result"][0]["value"][1]
+        intial_doc[metric_name] = response
+    intial_doc['Start Time'] = INTIAL_TIME_STRING
+
 
 
 count = 0
