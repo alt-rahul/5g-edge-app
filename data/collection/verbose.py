@@ -17,5 +17,5 @@ response = client.chat(model='deepseek-r1', messages=[
 
 response = response.model_dump_json()
 
-print(response)
+print(response) #response 
 
