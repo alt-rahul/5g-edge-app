@@ -4,6 +4,8 @@ cd nvbench_demo
 
 cmake -DCMAKE_CUDA_ARCHITECTURES=native .
 
+
+# 1. first install cmake and it dependencies
 sudo apt update
 sudo apt install libssl-dev
 sudo apt install cmake
@@ -41,6 +43,21 @@ sudo cp /var/cuda-repo-ubuntu2004-12-9-local/cuda-*-keyring.gpg /usr/share/keyri
 sudo apt-get update
 sudo apt-get -y install cuda-toolkit-12-9
 
-#add cuda to path
-export PATH=/usr/local/cuda/bin:$PATH
-export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+export PATH=/usr/local/cuda-12.9/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-12.9/lib64:$LD_LIBRARY_PATH
+
+export CUDACXX=/usr/local/cuda-12.9/bin/nvcc
+cmake .. -DCMAKE_CUDA_COMPILER=/usr/local/cuda-12.9/bin/nvcc
+make -j
+
+ls -l /usr/local/cuda
+
+
+# 2. installed cmake new version
+# 3. set path using echo path
+# 4. install nvcc using apt
+# 5. upgrade nvcc version using cuda toolkit online
+# 6. set new nvcc version path
+# 7. delete cmake build dir and make a new dir
+# 8. run cmake with new nvcc version
+# 9. 
