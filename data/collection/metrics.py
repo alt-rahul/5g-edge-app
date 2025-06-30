@@ -79,7 +79,7 @@ def fetch_metrics():
         result = results["data"]["result"][0]["value"][1]        
         live_doc[metric_name] = float(result)
     
-    if live_doc['GPU Utilization (%)'] > 80:
+    if live_doc['GPU Utilization (%)'] > 0.80:
         live_doc['GPU Stress'] = 'On'
     else:
         live_doc['GPU Stress'] = 'Off'    
@@ -98,6 +98,8 @@ while(True):
     fetch_metrics()
     time.sleep(1)
     count+=1
+    if count > 300:
+        break
 
 
 
