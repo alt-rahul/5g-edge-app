@@ -62,8 +62,9 @@ def fetch_intial_metrics():
             intial_doc[metric_name] = response
         else:
             response = (requests.get(url=PROMETHEUS_URL, params={"query":metric_query})).json()
-            response = response["data"]["result"][0]["value"][1]
+            response = float(response["data"]["result"][0]["value"][1])
             intial_doc[metric_name] = response        
+
     intial_doc["Start Time"] = INTIAL_TIME_STRING
     intial_doc["Status"] = "Initial"
     og_col.insert_one(intial_doc)
@@ -78,6 +79,11 @@ def fetch_metrics():
         result = results["data"]["result"][0]["value"][1]        
         live_doc[metric_name] = float(result)
     
+    if live_doc['GPU Utilization (%)'] > 80:
+        live_doc['GPU Stress'] = 'On'
+    else:
+        live_doc['GPU Stress'] = 'Off'    
+    
     now = datetime.now()
     timedelta = now - INITAL_TIME
     live_doc ["Current Time"]  = now.strftime("%H:%M:%S")
@@ -87,7 +93,7 @@ def fetch_metrics():
     print(f"Finished Collecting Collection #{count}")
     og_col.insert_one(live_doc)
 
-
+fetch_intial_metrics()
 while(True):
     fetch_metrics()
     time.sleep(1)
