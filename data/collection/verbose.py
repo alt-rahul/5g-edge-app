@@ -13,18 +13,18 @@ prompts = [
     "Summarize each chapter of ‘War and Peace’ in sequence, and then write a 500-word synthesis of the overall themes.",
     "Act as a code reviewer. I’ll paste a large codebase. Review each file, list issues, and then provide an overall review.",
     "Create a research paper with citations on the effects of climate change on marine biodiversity. First, outline, then write each section.",
-    "Simulate a roundtable debate between five philosophers (e.g., Kant, Nietzsche, Confucius, etc.) on AI ethics. Include 3 turns per character.",
-    "Write a 5,000-word fantasy short story including a hero’s journey, detailed magic system, and three named civilizations with cultures.",
-    "Generate a novel chapter-by-chapter plot for a mystery thriller. Then write a draft of chapter one.",
-    "Create documentation for a new programming language with sample code, tutorials, and API references.",
-    "Generate 100 unique product descriptions for fictional gadgets, each with a catchy name, spec sheet, and marketing slogan.",
-    "Simulate a text-based game engine with inventory, combat, and dialogue. Write the core logic and run a 5-turn playthrough.",
-    "Build a full-stack app mockup: frontend design, backend API, and sample database. Include comments and tests.",
-    "Generate a markdown-based static site with 10 interlinked pages, including CSS styling, based on a fictional museum.",
-    "Plan a Mars colonization mission: break down tech requirements, stages, risks, costs, and timeline over 20 years.",
-    "Reverse engineer a user manual from a list of features and use cases of a fictional drone model.",
-    "Analyze the political implications of AGI in 2050 from the perspectives of the US, China, EU, and UN.",
-    "Design a curriculum for a 3-month bootcamp to train LLM prompt engineers. Include weekly topics and exercises."
+    # "Simulate a roundtable debate between five philosophers (e.g., Kant, Nietzsche, Confucius, etc.) on AI ethics. Include 3 turns per character.",
+    # "Write a 5,000-word fantasy short story including a hero’s journey, detailed magic system, and three named civilizations with cultures.",
+    # "Generate a novel chapter-by-chapter plot for a mystery thriller. Then write a draft of chapter one.",
+    # "Create documentation for a new programming language with sample code, tutorials, and API references.",
+    # "Generate 100 unique product descriptions for fictional gadgets, each with a catchy name, spec sheet, and marketing slogan.",
+    # "Simulate a text-based game engine with inventory, combat, and dialogue. Write the core logic and run a 5-turn playthrough.",
+    # "Build a full-stack app mockup: frontend design, backend API, and sample database. Include comments and tests.",
+    # "Generate a markdown-based static site with 10 interlinked pages, including CSS styling, based on a fictional museum.",
+    # "Plan a Mars colonization mission: break down tech requirements, stages, risks, costs, and timeline over 20 years.",
+    # "Reverse engineer a user manual from a list of features and use cases of a fictional drone model.",
+    # "Analyze the political implications of AGI in 2050 from the perspectives of the US, China, EU, and UN.",
+    # "Design a curriculum for a 3-month bootcamp to train LLM prompt engineers. Include weekly topics and exercises."
 ]
 
 load_dotenv(find_dotenv())
@@ -51,7 +51,10 @@ def gen_prompt(prompt):
     ])
   response = response.model_dump_json()
   response = json.loads(response)
+  response['prompt_eval_rate'] = f"{response['prompt_eval_count']/(response['prompt_eval_duration'] /(10**9))} tokens/s"
+  response['eval_rate'] = f"{response['eval_count']/(response['eval_duration'] /(10**9))} tokens/s"
   response.pop('done_reason')
+  print('response')
   return response
 
 for prompt in prompts:
