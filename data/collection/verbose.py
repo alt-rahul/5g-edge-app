@@ -4,11 +4,13 @@ metrics of the LLM that we'll use to consider in the benchmarks.
 '''
 
 from ollama import Client
+import json
+
 client = Client(
   host='http://localhost:11434',
   headers={'x-some-header': 'some-value'}
 )
-response = client.chat(model='deepseek-r1', messages=[
+response = client.chat(model='llama3.1:8b', messages=[
   {
     'role': 'user',
     'content': 'Why is the sky blue? (in 3 words)',
@@ -16,6 +18,7 @@ response = client.chat(model='deepseek-r1', messages=[
 ])
 
 response = response.model_dump_json()
+response = json.loads(response)
 
-print(response) #response 
+print((response['message']['content'])) #response 
 
