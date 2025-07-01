@@ -20,6 +20,8 @@ scp rahulrajkumar@console.sb2.cosmos-lab.org:htop.html .
 
 # for stressing the compute with artifical load using stres-ng
 
-stress-ng -c 0 -l 40
+./gpu-burn -m 50% 60
+
+
 
 

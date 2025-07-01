@@ -45,3 +45,7 @@ This document will contain descriptive information about the progress made in th
   - [ ] Artifically load the GPU and CPU using *nvbench* and *stress-ng* (respectively) on differnt load percentages 
   - [x] Conduct a initial benchmark using Phoronix Test Suite on `sb2` node on cosmos
 - [X] Finish weekly presentation: [Week 5](../presentations/Week5.pptx)
+
+### Week 6
+- [x] Init stage stress testing
+  - [x] 

@@ -20,5 +20,7 @@ response = client.chat(model='llama3.1:8b', messages=[
 response = response.model_dump_json()
 response = json.loads(response)
 
-print((response['message']['content'])) #response 
+
+print(response.pop("done_reason")) #response 
+
 
