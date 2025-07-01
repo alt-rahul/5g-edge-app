@@ -22,7 +22,7 @@ client = MongoClient(connection_string)
 
 #filtering client into our specific database and collection
 og_db = client["main"]
-og_col = og_db["hundred_util_baseline"]
+og_col = og_db["zero_util_baseline"]
 
 #because we're using prometheus locally (set up local ports using orobit) we're 
 #fetching metric info from the following api
@@ -98,7 +98,7 @@ while(True):
     fetch_metrics()
     time.sleep(1)
     count+=1
-    if count > 300:
+    if count > 214:
         break
 
 
