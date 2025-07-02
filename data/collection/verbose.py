@@ -39,7 +39,7 @@ col = db['verbose_test']
 
 ollama_client = Client(
   host='http://localhost:11434',
-  headers={'x-some-header': 'some-value'}
+  # headers={'x-some-header': 'some-value'}
 )
 
 def gen_prompt(prompt):

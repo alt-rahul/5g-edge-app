@@ -9,7 +9,9 @@ from dotenv import load_dotenv, find_dotenv
 import os
 import pprint
 from pymongo import MongoClient
+from ollama import Client as OllamaClient
 from datetime import datetime
+import json
 
 # so here we're just doing some basic dotenv imports to get our db password
 load_dotenv(find_dotenv())
@@ -92,6 +94,26 @@ def fetch_metrics():
     live_doc['Iteration'] = count
     print(f"Finished Collecting Collection #{count}")
     og_col.insert_one(live_doc)
+
+OLLAMA_URL = 'https://localhost:11434'
+ollama_client = OllamaClient(
+        host=OLLAMA_URL,
+
+    )
+
+def fetch_verbose(prompt):
+    response = ollama_client.chat(
+        model='llama3.1:8b',
+        messages=[
+            {
+                'role':'user',
+                'content':prompt
+            },
+        ])
+    response = response.model_dump_json()
+
+
+
 
 fetch_intial_metrics()
 while(True):

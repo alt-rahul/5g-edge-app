@@ -18,7 +18,7 @@ for ((i = 0 ; i < 10 ; i++ )); do (ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | 
 scp root@srv1-lg1:/root/htop.html . # in console
 scp rahulrajkumar@console.sb2.cosmos-lab.org:htop.html .
 
-# for stressing the compute with artifical load using stres-ng
+# for stressing the compute with artifical load using gpu burn
 
 ./gpu-burn -m 50% 60
 
