@@ -7,7 +7,6 @@ import requests
 import time
 from dotenv import load_dotenv, find_dotenv
 import os
-import pprint
 from pymongo import MongoClient
 from ollama import Client as OllamaClient
 from datetime import datetime
