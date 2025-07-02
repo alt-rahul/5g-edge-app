@@ -98,7 +98,6 @@ def fetch_metrics():
 OLLAMA_URL = 'https://localhost:11434'
 ollama_client = OllamaClient(
         host=OLLAMA_URL,
-
     )
 
 def fetch_verbose(prompt):
@@ -107,10 +106,11 @@ def fetch_verbose(prompt):
         messages=[
             {
                 'role':'user',
-                'content':prompt
+                'content':prompt,
             },
         ])
     response = response.model_dump_json()
+    response = json.loads(response)
 
 
 
