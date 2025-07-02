@@ -7,6 +7,7 @@ from dotenv import load_dotenv, find_dotenv
 import requests
 from datetime import datetime
 import os
+import asyncio  
 
 
 load_dotenv(find_dotenv())
@@ -59,8 +60,8 @@ ollama_client = OllamaClient(
     host=OLLAMA_URL,
 )
 
-mongo_col.insert_one({"Initial":"hello"})
 
+mongo_col.insert_one({"Initial":"hello"})
 
 def fetch_intial_metrics():
     query = {"Initial":"hello"}
@@ -82,10 +83,24 @@ def fetch_intial_metrics():
     new_doc = {"$set":{"Initial":intial_doc}}
     mongo_col.update_one(query, new_doc)
 
+async def fetch_verbose():
+    
 
-# for prompt in prompts:
+
+
+for num, prompt in enumerate(prompts):
+    mongo_col.insert_one({f"Prompt {num}":{}})
+    update_query = {f'Prompt {num}':{"$exists":True}}
+    live_doc = {}
+    curr_prompt_df = mongo_col.find(update_query)
+    curr_prompt_df[f"GPU Metric"]
+
+    new_doc = {'$set':{f""}}
+    mongo_col.update_one(update_query, )
     
 fetch_intial_metrics()
+
+
 
 
 
