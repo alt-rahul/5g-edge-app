@@ -13,7 +13,7 @@ import asyncio
 load_dotenv(find_dotenv())
 MY_PASSWORD = os.environ.get("RAHUL_PASS")
 PROMETHEUS_URL = "http://localhost:9090/api/v1/query"
-OLLAMA_URL = 'https://localhost:11434'
+OLLAMA_URL = 'http://localhost:11434'
 INITIAL_METRICS = {
     "Power Limit (Watts)": "nvidia_smi_power_default_limit_watts", 
     "Memory Clock Limit (MHz)":"nvidia_smi_clocks_max_memory_clock_hz", 
@@ -61,13 +61,11 @@ ollama_client = OllamaClient(
 )
 
 
-mongo_col.insert_one({"Initial":"hello"})
 
 def fetch_intial_metrics():
-    query = {"Initial":"hello"}
     intial_doc = {}
+    print("Initializing Stationary Metrics...")
     for metric_name, metric_query in INITIAL_METRICS.items():
-        print("adding a metric")
         if metric_name == 'GPU Info':
             response = (requests.get(url=PROMETHEUS_URL, params={"query":metric_query})).json()
             response = response["data"]["result"][0]['metric']['name']
@@ -78,27 +76,66 @@ def fetch_intial_metrics():
             intial_doc[metric_name] = response        
 
     intial_doc["Start Time"] = INITIAL_TIME_STRING
-    intial_doc["Status"] = "Initial"
-
-    new_doc = {"$set":{"Initial":intial_doc}}
-    mongo_col.update_one(query, new_doc)
-
-async def fetch_verbose():
-    
+    intial_doc["Category"] = "Initial"
+    # new_doc = {"$set":{"Initial":intial_doc}}
+    mongo_col.insert_one(intial_doc)
+    print('Finished Collecting Initial Metrics...')
 
 
+async def fetch_verbose(prompt):
+    print(f"Sending a prompt to Ollama...")
+    response = ollama_client.chat(model='llama3.1:8b', messages=[
+        {
+            'role':'user',
+            'content':prompt,
+        }
+    ])
+    response = response.model_dump_json()
+    response = json.loads(response)
+    response['prompt_eval_rate'] = f"{response['prompt_eval_count']/(response['prompt_eval_duration'] /(10**9))} tokens/s"
+    response['eval_rate'] = f"{response['eval_count']/(response['eval_duration'] /(10**9))} tokens/s"
+    response.pop('done_reason')
+    print(response)
+    print(f"Succesfully Requested Ollama Prompt...")
 
-for num, prompt in enumerate(prompts):
-    mongo_col.insert_one({f"Prompt {num}":{}})
-    update_query = {f'Prompt {num}':{"$exists":True}}
-    live_doc = {}
-    curr_prompt_df = mongo_col.find(update_query)
-    curr_prompt_df[f"GPU Metric"]
 
-    new_doc = {'$set':{f""}}
-    mongo_col.update_one(update_query, )
+def fetch_live_metrics(num, count):
+    live_doc = { }
+    for metric_name, metric_query in LIVE_METRICS.items():
+        response = requests.get(PROMETHEUS_URL, params={"query":metric_query})
+        results = response.json()
+        result = results["data"]["result"][0]["value"][1]        
+        live_doc[metric_name] = float(result)
+
+    now = datetime.now()
+    timedelta = now - INITIAL_TIME
+    live_doc ["Current Time"]  = now.strftime("%H:%M:%S")
+    live_doc["Time Delta"] = timedelta.seconds
+    live_doc['Category'] = f"Prompt {num}"
+    live_doc['Iteration'] = count
+    print(f"Finished Collecting Metric #{count}...")
+    mongo_col.insert_one(live_doc)
+
+
+
+def main():
+    pass
+
+
+
+
+# for num, prompt in enumerate(prompts):
+#     mongo_col.insert_one({f"Prompt {num}":{}})
+#     update_query = {f'Prompt {num}':{"$exists":True}}
+#     live_doc = {}
+#     curr_prompt_df = mongo_col.find(update_query)
+#     curr_prompt_df[f"GPU Metric"]
+
+#     new_doc = {'$set':{f""}}
+#     mongo_col.update_one(update_query, )
     
 fetch_intial_metrics()
+asyncio.run(fetch_verbose(prompt=prompts[1]))
 
 
 
