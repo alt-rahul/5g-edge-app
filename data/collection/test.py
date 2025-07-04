@@ -64,7 +64,7 @@ ollama_client = OllamaClient(
 
 def fetch_intial_metrics():
     intial_doc = {}
-    print("Initializing Stationary Metrics...")
+    print("Initializing Stationary Metrics...\n")
     for metric_name, metric_query in INITIAL_METRICS.items():
         if metric_name == 'GPU Info':
             response = (requests.get(url=PROMETHEUS_URL, params={"query":metric_query})).json()
@@ -77,26 +77,33 @@ def fetch_intial_metrics():
 
     intial_doc["Start Time"] = INITIAL_TIME_STRING
     intial_doc["Category"] = "Initial"
-    # new_doc = {"$set":{"Initial":intial_doc}}
+
     mongo_col.insert_one(intial_doc)
-    print('Finished Collecting Initial Metrics...')
+    print('Finished Collecting Initial Metrics...\n')
+    return intial_doc
 
 
 async def fetch_verbose(prompt):
-    print(f"Sending a prompt to Ollama...")
-    response = ollama_client.chat(model='llama3.1:8b', messages=[
-        {
-            'role':'user',
-            'content':prompt,
-        }
-    ])
+    print(f"Sending a prompt to Ollama...\n")
+    def blocking_ollama_call():
+        return ollama_client.chat(model='llama3.1:8b', messages=[
+            {
+                'role': 'user',
+                'content': prompt,
+            }
+        ])
+    response = await asyncio.to_thread(blocking_ollama_call)
     response = response.model_dump_json()
     response = json.loads(response)
     response['prompt_eval_rate'] = f"{response['prompt_eval_count']/(response['prompt_eval_duration'] /(10**9))} tokens/s"
     response['eval_rate'] = f"{response['eval_count']/(response['eval_duration'] /(10**9))} tokens/s"
     response.pop('done_reason')
-    print(response)
-    print(f"Succesfully Requested Ollama Prompt...")
+    now = datetime.now()
+    response["Current Time"] = now.strftime("%H:%M:%S")
+
+    print(f"\nSuccessfully Requested Ollama Prompt...\n")
+    return response
+
 
 
 def fetch_live_metrics(num, count):
@@ -115,29 +122,26 @@ def fetch_live_metrics(num, count):
     live_doc['Iteration'] = count
     print(f"Finished Collecting Metric #{count}...")
     mongo_col.insert_one(live_doc)
+    return live_doc
 
 
-
-def main():
-    pass
-
-
-
-
-# for num, prompt in enumerate(prompts):
-#     mongo_col.insert_one({f"Prompt {num}":{}})
-#     update_query = {f'Prompt {num}':{"$exists":True}}
-#     live_doc = {}
-#     curr_prompt_df = mongo_col.find(update_query)
-#     curr_prompt_df[f"GPU Metric"]
-
-#     new_doc = {'$set':{f""}}
-#     mongo_col.update_one(update_query, )
-    
-fetch_intial_metrics()
-asyncio.run(fetch_verbose(prompt=prompts[1]))
+async def main():
+    for num, prompt in enumerate(prompts[:4]):
+        count = 0
+        print(f"--- Starting process for prompt {num+1} ---")
+        verbose_task = asyncio.create_task(fetch_verbose(prompt))
+        while not verbose_task.done():
+            count += 1
+            await asyncio.to_thread(fetch_live_metrics, num + 1, count)
+        result = await verbose_task
+        mongo_col.insert_one(result)
+        print(f"Inserted verbose result for prompt {num}")
+        print("----------------\n")
 
 
+        
+fetch_intial_metrics() 
+asyncio.run(main())
 
 
 
