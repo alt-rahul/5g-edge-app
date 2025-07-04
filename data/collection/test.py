@@ -126,19 +126,17 @@ def fetch_live_metrics(num, count):
 
 
 async def main():
-    for num, prompt in enumerate(prompts[:4]):
+    for num, prompt in enumerate(prompts):
         count = 0
-        print(f"--- Starting process for prompt {num+1} ---")
+        print(f"Starting process for prompt {num+1}\n")
         verbose_task = asyncio.create_task(fetch_verbose(prompt))
         while not verbose_task.done():
             count += 1
             await asyncio.to_thread(fetch_live_metrics, num + 1, count)
         result = await verbose_task
         mongo_col.insert_one(result)
-        print(f"Inserted verbose result for prompt {num}")
+        print(f"\nInserted verbose result for prompt {num}")
         print("----------------\n")
-
-
         
 fetch_intial_metrics() 
 asyncio.run(main())
