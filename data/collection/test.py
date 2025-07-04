@@ -135,7 +135,7 @@ async def main():
             await asyncio.to_thread(fetch_live_metrics, num + 1, count)
         result = await verbose_task
         mongo_col.insert_one(result)
-        print(f"\nInserted verbose result for prompt {num}")
+        print(f"\nInserted verbose result for prompt {num +1}")
         print("----------------\n")
         
 fetch_intial_metrics() 
