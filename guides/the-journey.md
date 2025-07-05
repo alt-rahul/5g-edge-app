@@ -48,4 +48,8 @@ This document will contain descriptive information about the progress made in th
 
 ### Week 6
 - [x] Init stage stress testing
-  - [x] 
+  - [x] Finish artfically loading and stress testing the GPU using *gpu-burn*
+  - [x] Developed a script to collect live GPU metrics while sending Ollama requests
+  - [x] Collected enough GPU metrics data to create a baseline benchmark for utilizing the GPU for non-AI related tasks
+- [x] Finish weekly presentation: [Week 6](../presentations/Week6.pptx)
+
