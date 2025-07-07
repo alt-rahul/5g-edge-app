@@ -133,7 +133,7 @@ async def main():
         task = asyncio.create_task(fetch_verbose(prompt))
         count = 0
         while not task.done():
-            await asyncio.to_thread(fetch_intial_metrics(num, count))
+            await asyncio.to_thread(fetch_live_metrics(num, count))
             count +=1
         answer = await task
         mongo_col.insert_one(answer)
