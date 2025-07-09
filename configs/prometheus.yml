@@ -38,7 +38,7 @@ scrape_configs:
     # node exporter port
     static_configs:
       - targets: ['<ip_address_of_node>:9100']
-
+  #here repalce ip address with that of the node
   # running nvidia-gpu-exporter 
   - job_name: 'nvidia_gpu'
     

@@ -53,3 +53,6 @@ This document will contain descriptive information about the progress made in th
   - [x] Collected enough GPU metrics data to create a baseline benchmark for utilizing the GPU for non-AI related tasks
 - [x] Finish weekly presentation: [Week 6](../presentations/Week6.pptx)
 
+
+### Week 7
+- []

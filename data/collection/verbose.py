@@ -60,6 +60,9 @@ def gen_prompt(prompt):
 for prompt in prompts:
   return_response = gen_prompt(prompt)
   col.insert_one(return_response)
+  print('done withe one response')
+
+
 
 
 
