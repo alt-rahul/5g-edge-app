@@ -35,7 +35,7 @@ omf tell -a offh -t node1-4
 #checking if my image exists
 ls /mnt/images | grep rahul
 #(currenly we should be using the image rahulsgoodnode.ndz)
-omf load -i rahulsgoodnode.ndz -t node1-4
+omf load -i rahulsgoodnode.ndz -t node1-4 -r0
 ```
 
 ---

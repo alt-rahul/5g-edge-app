@@ -34,6 +34,7 @@ rm node_exporter-*.*-amd64.tar.gz
 #dowloading ollama 
 curl -fsSL https://ollama.com/install.sh | sh
 OLLAMA_HOST=0.0.0.0 ollama serve
+ollama run llama3.1:8b
 
 
 #to update apt files

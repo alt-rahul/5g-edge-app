@@ -85,15 +85,14 @@ def fetch_intial_metrics():
 
 async def fetch_verbose(prompt):
     print(f"Sending a prompt to Ollama...\n")
-    def get_response(prompt):
-        response = ollama_client.chat(model='llama3.1:8b', messages=[
-        {
-            'role': 'user',
-            'content': prompt,
-        },
+    def block_call():
+        return ollama_client.chat(model='llama3.1:8b', messages=[
+            {
+                'role': 'user',
+                'content': prompt,
+            },
         ])
-        return response
-    response = await asyncio.to_thread(get_response(prompt))
+    response = await asyncio.to_thread(block_call)
     response = response.model_dump_json()
     response = json.loads(response)
     response['prompt_eval_rate'] = f"{response['prompt_eval_count']/(response['prompt_eval_duration'] /(10**9))} tokens/s"
@@ -127,19 +126,19 @@ def fetch_live_metrics(num, count):
 
 
 async def main():
-    fetch_intial_metrics()
     for num, prompt in enumerate(prompts):
         print("\nStaring task...\n")
         task = asyncio.create_task(fetch_verbose(prompt))
         count = 0
         while not task.done():
-            await asyncio.to_thread(fetch_live_metrics(num, count))
             count +=1
+            await asyncio.to_thread(fetch_live_metrics, num, count)
         answer = await task
         mongo_col.insert_one(answer)
         print("\nFinished task...\n")
         print("--------------")
 
+fetch_intial_metrics()
 asyncio.run(main())
 
 
