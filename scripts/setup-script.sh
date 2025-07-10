@@ -42,3 +42,5 @@ ollama run llama3.1:8b
 apt update
 nano /etc/apt/sources.list #comment out last line
 apt update -y 
+
+
