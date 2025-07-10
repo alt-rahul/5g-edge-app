@@ -126,6 +126,7 @@ def fetch_live_metrics(num, count):
 
 
 async def main():
+    fetch_intial_metrics()
     for num, prompt in enumerate(prompts):
         print("\nStaring task...\n")
         task = asyncio.create_task(fetch_verbose(prompt))
@@ -138,7 +139,7 @@ async def main():
         print("\nFinished task...\n")
         print("--------------")
 
-fetch_intial_metrics()
+
 asyncio.run(main())
 
 
