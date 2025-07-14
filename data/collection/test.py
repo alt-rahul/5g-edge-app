@@ -31,21 +31,82 @@ LIVE_METRICS = {
     "Memory Utilization (%)":"nvidia_smi_utilization_memory_ratio",
 }
 prompts = [
-    "Summarize each chapter of ‘War and Peace’ in sequence, and then write a 500-word synthesis of the overall themes.",
-    "Act as a code reviewer. I’ll paste a large codebase. Review each file, list issues, and then provide an overall review.",
-    "Create a research paper with citations on the effects of climate change on marine biodiversity. First, outline, then write each section.",
-    "Simulate a roundtable debate between five philosophers (e.g., Kant, Nietzsche, Confucius, etc.) on AI ethics. Include 3 turns per character.",
-    "Write a 5,000-word fantasy short story including a hero’s journey, detailed magic system, and three named civilizations with cultures.",
-    "Generate a novel chapter-by-chapter plot for a mystery thriller. Then write a draft of chapter one.",
-    "Create documentation for a new programming language with sample code, tutorials, and API references.",
-    "Generate 100 unique product descriptions for fictional gadgets, each with a catchy name, spec sheet, and marketing slogan.",
-    "Simulate a text-based game engine with inventory, combat, and dialogue. Write the core logic and run a 5-turn playthrough.",
-    "Build a full-stack app mockup: frontend design, backend API, and sample database. Include comments and tests.",
-    "Generate a markdown-based static site with 10 interlinked pages, including CSS styling, based on a fictional museum.",
-    "Plan a Mars colonization mission: break down tech requirements, stages, risks, costs, and timeline over 20 years.",
-    "Reverse engineer a user manual from a list of features and use cases of a fictional drone model.",
-    "Analyze the political implications of AGI in 2050 from the perspectives of the US, China, EU, and UN.",
-    "Design a curriculum for a 3-month bootcamp to train LLM prompt engineers. Include weekly topics and exercises."
+    # Math (10)
+    "Calculate 14 + 27 and provide the numeric result.",
+    "Compute 25% of 360 and state the answer.",
+    "Solve for x in the equation 4x + 7 = 3x + 15, showing each step.",
+    "Find the area of a circle with radius 5 units, using π ≈ 3.1416.",
+    "Evaluate the definite integral ∫₀² (4x³ − 2x + 1) dx and give the exact value.",
+    "Compute the eigenvalues of the matrix [[2,1],[1,2]] and explain your method.",
+    "Prove by induction that for all n ≥ 1, 1³ + 2³ + ⋯ + n³ = (n(n+1)/2)².",
+    "Determine all integer solutions (x, y) to the Diophantine equation x² − 3y² = 1.",
+    "Outline a rigorous proof of the Prime Number Theorem in 500 words.",
+    "Present and prove Galois’s fundamental theorem of Galois theory in at least 800 words.",
+    # Science (10)
+    "List the chemical symbols for hydrogen, oxygen, and carbon.",
+    "Describe in one sentence what photosynthesis does in plants.",
+    "Explain how enzymes function to lower activation energy in biochemical reactions (100 words).",
+    "Describe the stages of the human cell cycle and their durations (150 words).",
+    "Derive the ideal gas law PV = nRT from first principles of kinetic molecular theory (200 words).",
+    "Explain the mechanism of DNA replication in eukaryotic cells, including major enzymes (250 words).",
+    "Outline in detail the steps of the citric acid cycle, including intermediates and enzymes (300 words).",
+    "Discuss the evidence supporting continental drift and plate tectonics theory (350 words).",
+    "Explain the mathematical formulation of the Schrödinger equation and its physical interpretation (500 words).",
+    "Describe how LIGO detects gravitational waves, including instrumentation and data analysis (600 words).",
+    # Writing (10)
+    "Write a 50-word descriptive paragraph about a peaceful forest scene.",
+    "Compose a 100-word personal introduction for a professional networking profile.",
+    "Draft a 300-word persuasive paragraph arguing for daily exercise benefits.",
+    "Write a 400-word narrative about overcoming a significant challenge.",
+    "Produce a 600-word analytical essay on the symbolism in Shakespeare’s 'Macbeth'.",
+    "Compose a 700-word critical review of a recent scientific article of your choice.",
+    "Write a 1000-word literature review on modern interpretations of Greek mythology.",
+    "Draft a 1200-word research proposal on renewable energy technology adoption.",
+    "Generate a 2000-word comprehensive thesis chapter on artificial intelligence ethics.",
+    "Create a 5000-word comparative analysis of two major philosophical doctrines.",
+    # Trivia (10)
+    "Name the largest planet in our solar system.",
+    "State the year the first man landed on the Moon.",
+    "Identify the author of 'To Kill a Mockingbird' and the year it was published.",
+    "Name the chemical element with atomic number 82 and its common use (100 words).",
+    "List all continents in alphabetical order and give one unique fact about each (200 words).",
+    "Identify the winner of the Nobel Prize in Literature in 2020 and summarize their work (250 words).",
+    "Name the five longest rivers in the world and provide their approximate lengths (300 words).",
+    "List the top ten highest-grossing films of all time and their release years (350 words).",
+    "Detail the historical evolution of the Olympic Games from ancient Greece to the modern era (500 words).",
+    "Describe the complete lineup of the Beatles and their roles, including years active (600 words).",
+    # Programming (10)
+    "Write a Python one-liner to reverse a string 'hello' and print the result.",
+    "Explain in one paragraph what a 'for' loop does in programming.",
+    "Implement a Python function `is_prime(n)` that returns True if n is prime, with comments.",
+    "Write SQL to retrieve the top 5 highest-paid employees from an 'employees' table.",
+    "Implement quicksort in Java, including partition and recursive calls, with inline comments.",
+    "Write JavaScript code to implement a debounced function with a 300ms delay.",
+    "Build a basic singly linked list in C++ with methods for insert, delete, and search.",
+    "Compare and contrast REST and GraphQL APIs in a 400-word essay.",
+    "Design and code a MapReduce job in pseudocode to count word frequency in a large text corpus (500 words).",
+    "Describe the CAP theorem and implement a small simulated distributed key-value store in 600 words.",
+    # Mixed (20)
+    "List five prime numbers between 1 and 100.",
+    "Spell the word 'pharaoh' correctly.",
+    "State the boiling point of ethanol in Celsius.",
+    "Name three branches of the United States government.",
+    "Solve the system of equations: 2x + y = 5 and x − y = 1, showing steps.",
+    "Explain Newton’s third law of motion with a real-world example (150 words).",
+    "Write pseudocode for computing the factorial of a number using recursion.",
+    "Identify the capital cities of France, Japan, and Brazil.",
+    "Balance the chemical equation: C₃H₈ + O₂ → CO₂ + H₂O, and explain coefficients.",
+    "Compare the themes of friendship in 'Of Mice and Men' and 'The Kite Runner' (200 words).",
+    "Explain how blockchain consensus mechanisms work, focusing on Proof of Work (250 words).",
+    "Write a regular expression that matches a valid IPv4 address and explain each part.",
+    "Prove that there are infinitely many primes congruent to 1 mod 4 in 300 words.",
+    "Analyze the economic causes of the 2008 financial crisis in 350 words.",
+    "Design a RESTful API specification for a task management system (500 words).",
+    "Explain the process of transcription and translation in gene expression (400 words).",
+    "Discuss Gödel’s incompleteness theorems and their implications for mathematics (600 words).",
+    "Outline the development of quantum computing hardware and current challenges (700 words).",
+    "Implement a basic feedforward neural network forward pass in pseudocode with commentary (800 words).",
+    "Critically evaluate Utilitarianism versus Kantian ethics in a 1000-word essay."
 ]
 INITIAL_TIME = datetime.now()
 INITIAL_TIME_STRING = INITIAL_TIME.strftime("%H:%M:%S")
@@ -59,7 +120,6 @@ mongo_col = mongo_db['testing']
 ollama_client = OllamaClient(
     host=OLLAMA_URL,
 )
-
 
 
 def fetch_intial_metrics():
@@ -141,6 +201,7 @@ async def main():
 
 
 asyncio.run(main())
+
 
 
 
