@@ -55,4 +55,7 @@ This document will contain descriptive information about the progress made in th
 
 
 ### Week 7
-- []
+- [x] Created a full pipeline where I can asynchronously collect gpu metrics while sending ollama prompt requests
+- [x] Successfully conducted a sample test with a pool different prompts 
+- [x] Did a basic EDA to understand the metric information and figure out which gpu metrics are more impactful
+- [x] Finish weekly presentation: [Week 7](../presentations/Week7.pptx)

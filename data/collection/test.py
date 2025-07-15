@@ -1,5 +1,4 @@
 #the comments were getting out of hand so I'm starting a fresh file
-
 from pymongo import MongoClient
 from ollama import Client as OllamaClient
 import json
@@ -111,16 +110,14 @@ prompts = [
 INITIAL_TIME = datetime.now()
 INITIAL_TIME_STRING = INITIAL_TIME.strftime("%H:%M:%S")
 
-
 mongo_connection_url = f"mongodb+srv://rr1437:{MY_PASSWORD}@prometrics.h105zsq.mongodb.net/?retryWrites=true&w=majority&appName=ProMetrics"
 monogo_client = MongoClient(mongo_connection_url)
-mongo_db = monogo_client['main']
-mongo_col = mongo_db['testing']
+mongo_db = monogo_client['dataset']
+mongo_col = mongo_db['ollama']
 
 ollama_client = OllamaClient(
     host=OLLAMA_URL,
 )
-
 
 def fetch_intial_metrics():
     intial_doc = {}
@@ -141,7 +138,6 @@ def fetch_intial_metrics():
     mongo_col.insert_one(intial_doc)
     print('Finished Collecting Initial Metrics...\n')
     return intial_doc
-
 
 async def fetch_verbose(prompt):
     print(f"Sending a prompt to Ollama...\n")
@@ -164,8 +160,6 @@ async def fetch_verbose(prompt):
     print(f"\nSuccessfully Requested Ollama Prompt...\n")
     return response
 
-
-
 def fetch_live_metrics(num, count):
     live_doc = { }
     for metric_name, metric_query in LIVE_METRICS.items():
@@ -184,7 +178,6 @@ def fetch_live_metrics(num, count):
     mongo_col.insert_one(live_doc)
     return live_doc
 
-
 async def main():
     fetch_intial_metrics()
     for num, prompt in enumerate(prompts):
@@ -199,11 +192,4 @@ async def main():
         print("\nFinished task...\n")
         print("--------------")
 
-
 asyncio.run(main())
-
-
-
-
-
-
