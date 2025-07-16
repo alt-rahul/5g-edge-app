@@ -113,7 +113,7 @@ INITIAL_TIME_STRING = INITIAL_TIME.strftime("%H:%M:%S")
 mongo_connection_url = f"mongodb+srv://rr1437:{MY_PASSWORD}@prometrics.h105zsq.mongodb.net/?retryWrites=true&w=majority&appName=ProMetrics"
 monogo_client = MongoClient(mongo_connection_url)
 mongo_db = monogo_client['dataset']
-mongo_col = mongo_db['ollama']
+mongo_col = mongo_db['integrated']
 
 ollama_client = OllamaClient(
     host=OLLAMA_URL,
