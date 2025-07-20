@@ -1,0 +1,2 @@
+,_id,Power Limit (Watts),Memory Clock Limit (MHz),Total Memory Allocation (MB),GPU Clock Limit (MHz),GPU Info,Start Time,Category,Collect
+0,68755bb2c9327eb904ad10ef,250.0,877000000.0,17179869184.0,1380000000.0,Tesla V100-PCIE-16GB,15:34:09,Initial,True
