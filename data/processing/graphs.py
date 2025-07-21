@@ -2,11 +2,13 @@ import matplotlib.tri as tri
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
+import os
 
-live = pd.read_csv('../data/samples/trial/live_metrics.csv')
-initial = pd.read_csv('../data/samples/trial/intial_statement.csv')
-verbose = pd.read_csv('../data/samples/trial/verbose_statements.csv')
-live = live.drop(columns=['Unnamed: 0'])
+og_live = pd.read_csv(r'C:\Users\rahul\Documents\Python\Work\WINLAB\5g-edge-app\data\samples\trial\live_metrics.csv')
+og_initial = pd.read_csv(r'C:\Users\rahul\Documents\Python\Work\WINLAB\5g-edge-app\data\samples\trial\intial_statement.csv')
+og_verbose = pd.read_csv(r'C:\Users\rahul\Documents\Python\Work\WINLAB\5g-edge-app\data\samples\trial\verbose_statements.csv')
+
+live = og_live.drop(columns=['Unnamed: 0'])
 
 
 def normalize(diction : dict):
