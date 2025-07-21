@@ -10,7 +10,6 @@ og_verbose = pd.read_csv(r'C:\Users\rahul\Documents\Python\Work\WINLAB\5g-edge-a
 
 live = og_live.drop(columns=['Unnamed: 0'])
 
-
 def normalize(diction : dict):
     diction = (diction)/(diction.max())
     return diction
