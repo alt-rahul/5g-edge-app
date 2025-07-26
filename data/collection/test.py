@@ -37,7 +37,7 @@ INITIAL_TIME_STRING = INITIAL_TIME.strftime("%H:%M:%S")
 mongo_connection_url = f"mongodb+srv://rr1437:{MY_PASSWORD}@prometrics.h105zsq.mongodb.net/?retryWrites=true&w=majority&appName=ProMetrics"
 monogo_client = MongoClient(mongo_connection_url)
 mongo_db = monogo_client['dataset']
-mongo_col = mongo_db['mega']
+mongo_col = mongo_db['mega2']
 
 ollama_client = OllamaClient(
     host=OLLAMA_URL,
@@ -105,7 +105,7 @@ def fetch_live_metrics(num, count):
 async def main():
     fetch_intial_metrics()
     for num, prompt in enumerate(prompts):
-        print("\nStaring task...\n")
+        print(f"\nOn Prompt {num}: Staring task...\n")
         task = asyncio.create_task(fetch_verbose(prompt))
         count = 0
         while not task.done():
