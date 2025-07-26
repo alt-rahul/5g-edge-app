@@ -1,0 +1,2 @@
+,_id,Power Limit (Watts),Memory Clock Limit (MHz),Total Memory Allocation (MB),GPU Clock Limit (MHz),GPU Info,Start Time,Category,Collect
+0,688509077b3c97d19cf786aa,250.0,1215000000.0,42949672960.0,1410000000.0,NVIDIA A100-PCIE-40GB,12:57:43,Initial,True
