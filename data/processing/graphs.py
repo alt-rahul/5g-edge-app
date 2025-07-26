@@ -31,7 +31,6 @@ triangular = tri.Triangulation(x, y)
 surface = ax.plot_trisurf(triangular, z, cmap='viridis', edgecolor='none', alpha=0.8)
 fig.colorbar(surface, ax=ax)
 
-# linespace = np.linspace(0, 1, len(x))
 linespace = [0,1]
 X, Y = np.meshgrid(linespace, linespace)
 ax.plot_surface(X, Y, np.zeros_like(X), color='gray', alpha=0.2)

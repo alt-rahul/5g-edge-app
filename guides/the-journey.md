@@ -59,3 +59,10 @@ This document will contain descriptive information about the progress made in th
 - [x] Successfully conducted a sample test with a pool different prompts 
 - [x] Did a basic EDA to understand the metric information and figure out which gpu metrics are more impactful
 - [x] Finish weekly presentation: [Week 7](../presentations/Week7.pptx)
+
+
+### Week 8
+- [x] 
+
+### Week 9 
+- [x]
