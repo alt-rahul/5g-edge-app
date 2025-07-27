@@ -12,7 +12,6 @@ This document will contain descriptive information about the progress made in th
   - [x] Look at existing research papers that explained Edge 
 - [x] Finish weekly presentation: [Week 1](../presentations/Week1.pptx)
 
-
 ### Week 2
 - [x] Make a future roadmap
   - [x] What exactly are we trying to acheive? - creating Edge benchmarks that'll help the scheduler
@@ -20,7 +19,6 @@ This document will contain descriptive information about the progress made in th
 - [x] Using orbit
   - [x] Learning how to `ssh` into nodes, loading images, and etc.
 - [x] Finish weekly presentation: [Week 2](../presentations/Week2.pptx)
-
 
 ### Week 3
 - [x] Setting up services
@@ -53,13 +51,11 @@ This document will contain descriptive information about the progress made in th
   - [x] Collected enough GPU metrics data to create a baseline benchmark for utilizing the GPU for non-AI related tasks
 - [x] Finish weekly presentation: [Week 6](../presentations/Week6.pptx)
 
-
 ### Week 7
 - [x] Created a full pipeline where I can asynchronously collect gpu metrics while sending ollama prompt requests
 - [x] Successfully conducted a sample test with a pool different prompts 
 - [x] Did a basic EDA to understand the metric information and figure out which gpu metrics are more impactful
 - [x] Finish weekly presentation: [Week 7](../presentations/Week7.pptx)
-
 
 ### Week 8
 - [x] Visualized our metric data as a time series to see the flucations in utilization and other metrics
