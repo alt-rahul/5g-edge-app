@@ -62,7 +62,14 @@ This document will contain descriptive information about the progress made in th
 
 
 ### Week 8
-- [x] 
+- [x] Visualized our metric data as a time series to see the flucations in utilization and other metrics
+- [X] Did statistical analysis on the correlation between metric and response time
+- [x] Was introduced to the scheduling problem that we're trying to solve
+- [x] Finished weekly presentation: [Week 8](../presentations/Week8.pptx)
 
 ### Week 9 
-- [x]
+- [x] Conducted tests on a few more different GPUs (Tesla V100 16GB, Tesla A100 40GB)
+- [x] Feature selection by finding correlation between metrics
+- [x] Created an MLP to estimate the weights needed to fine the linear combination of the benchmark (but was unnecessary)
+- [x] Transitioned to using Lasso (the L1 regularizer) to fine the relevant coeficients to estimate the response time
+- [x] Finished weekly presention: [Week 9](../presentations/Week9.pptx)
