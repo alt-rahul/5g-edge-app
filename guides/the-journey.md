@@ -69,3 +69,10 @@ This document will contain descriptive information about the progress made in th
 - [x] Created an MLP to estimate the weights needed to fine the linear combination of the benchmark (but was unnecessary)
 - [x] Transitioned to using Lasso (the L1 regularizer) to fine the relevant coeficients to estimate the response time
 - [x] Finished weekly presention: [Week 9](../presentations/Week9.pptx)
+
+
+### Week 10
+- [x] Finalized the benchmarks scoring
+- [x] Finished poster 
+- [x] Finished final presentation
+
