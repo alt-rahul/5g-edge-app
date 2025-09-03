@@ -74,5 +74,7 @@ This document will contain descriptive information about the progress made in th
 ### Week 10
 - [x] Finalized the benchmarks scoring
 - [x] Finished poster 
-- [x] Finished final presentation
+- [x] Finished final presentation: [Week 10 & 11](../presentations/FinalPresentation.pptx)
+
+
 
